@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="./code_files/bootstrap/Bootstrap-5-5.0.1/css/bootstrap.min.css" />
+    <!-- <link rel="stylesheet" href="./code_files/bootstrap/datatables.min.css" /> -->
+    <link rel="stylesheet" href="./code_files/bootstrap/DataTables-1.11.5/css/dataTables.bootstrap5.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
+    <!-- My CSS files -->
+    <link rel="stylesheet" href="./code_files/css/main.css" />
+
+    <script src="./code_files/js/readFile.js"></script>
+    <title>PLAY ACCOUNTING</title>
+</head>
+
+<!-- store data as local storage -->
+<!-- ajax -->
+<!-- take notes your mistakes -->
+
+<body>
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbarMY fixed-top">
+        <div class="container-fluid">
+            <button class="navbar-toggler me-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+          <span
+            class="navbar-toggler-icon"
+            data-bs-target="#offcanvasExample"
+          ></span>
+        </button>
+            <a class="navbar-brand fw-bold text-uppercase me-auto" href="#">DASHBOARD</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <form class="d-flex ms-auto">
+            <div class="input-group my-3 my-lg-0">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Type to search..."
+                aria-label="Type to search..."
+                aria-describedby="button-addon2"
+              />
+              <button class="btn btn-primary" type="button" id="button-addon2">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-search"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </form>
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Search Criteria
+              </a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Income</a></li>
+                <li><a class="dropdown-item" href="#">Expenses</a></li>
+                <li>
+                    <hr class="dropdown-divider" />
+                </li>
+                <li>
+                    <a class="dropdown-item" href="#">Donors</a>
+                </li>
+            </ul>
+            </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- offcanvas start -->
+    <div class="offcanvas offcanvas-start sidebar-nav bg-dark text-white" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <img class="logo mt-5" src="./code_files/pics/play_logo.png " alt=" " />
+        <div class="offcanvas-body">
+            <nav class="navbar-dark">
+                <ul class="navbar-nav">
+                    <li class="my-2">
+                        <hr class="dropdown-divider" />
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link px-3 h5 active">
+                            <span class="me-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-grid-3x2-gap-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M1 4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V4zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V4zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V4zM1 9a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V9zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V9zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V9z"
+                    />
+                  </svg>
+                </span>
+                            <span class="fw-bold text-uppercase">DASHBOARD</span>
+                        </a>
+                    </li>
+                    <li class="my-1">
+                        <hr class="dropdown-divider" />
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link px-3 h5 active">
+                            <span class="me-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-people-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      d="M5.216 14A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216z"
+                    />
+                    <path d="M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z" />
+                  </svg>
+                </span>
+                            <span class="fw-bold text-uppercase">DONORS</span>
+                        </a>
+                    </li>
+                    <li class="my-1">
+                        <hr class="dropdown-divider" />
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link px-3 h5 active">
+                            <span class="me-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-wallet-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M1.5 2A1.5 1.5 0 0 0 0 3.5v2h6a.5.5 0 0 1 .5.5c0 .253.08.644.306.958.207.288.557.542 1.194.542.637 0 .987-.254 1.194-.542.226-.314.306-.705.306-.958a.5.5 0 0 1 .5-.5h6v-2A1.5 1.5 0 0 0 14.5 2h-13z"
+                    />
+                    <path
+                      d="M16 6.5h-5.551a2.678 2.678 0 0 1-.443 1.042C9.613 8.088 8.963 8.5 8 8.5c-.963 0-1.613-.412-2.006-.958A2.679 2.679 0 0 1 5.551 6.5H0v6A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-6z"
+                    />
+                  </svg>
+                </span>
+                            <span class="fw-bold text-uppercase">INCOME</span>
+                        </a>
+                    </li>
+                    <li class="my-1">
+                        <hr class="dropdown-divider" />
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link px-3 h5 active">
+                            <span class="me-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-cash-coin"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M11 15a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm5-4a5 5 0 1 1-10 0 5 5 0 0 1 10 0z"
+                    />
+                    <path
+                      d="M9.438 11.944c.047.596.518 1.06 1.363 1.116v.44h.375v-.443c.875-.061 1.386-.529 1.386-1.207 0-.618-.39-.936-1.09-1.1l-.296-.07v-1.2c.376.043.614.248.671.532h.658c-.047-.575-.54-1.024-1.329-1.073V8.5h-.375v.45c-.747.073-1.255.522-1.255 1.158 0 .562.378.92 1.007 1.066l.248.061v1.272c-.384-.058-.639-.27-.696-.563h-.668zm1.36-1.354c-.369-.085-.569-.26-.569-.522 0-.294.216-.514.572-.578v1.1h-.003zm.432.746c.449.104.655.272.655.569 0 .339-.257.571-.709.614v-1.195l.054.012z"
+                    />
+                    <path
+                      d="M1 0a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h4.083c.058-.344.145-.678.258-1H3a2 2 0 0 0-2-2V3a2 2 0 0 0 2-2h10a2 2 0 0 0 2 2v3.528c.38.34.717.728 1 1.154V1a1 1 0 0 0-1-1H1z"
+                    />
+                    <path
+                      d="M9.998 5.083 10 5a2 2 0 1 0-3.132 1.65 5.982 5.982 0 0 1 3.13-1.567z"
+                    />
+                  </svg>
+                </span>
+                            <span class="fw-bold text-uppercase">EXPENSES</span>
+                        </a>
+                    </li>
+                    <li class="my-1">
+                        <hr class="dropdown-divider" />
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link px-3 h5 active">
+                            <span class="me-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-file-earmark-spreadsheet"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2zM9.5 3A1.5 1.5 0 0 0 11 4.5h2V9H3V2a1 1 0 0 1 1-1h5.5v2zM3 12v-2h2v2H3zm0 1h2v2H4a1 1 0 0 1-1-1v-1zm3 2v-2h3v2H6zm4 0v-2h3v1a1 1 0 0 1-1 1h-2zm3-3h-3v-2h3v2zm-7 0v-2h3v2H6z"
+                    />
+                  </svg>
+                </span>
+                            <span class="fw-bold text-uppercase">REPORTS</span>
+                        </a>
+                    </li>
+                    <li class="my-1">
+                        <hr class="dropdown-divider" />
+                    </li>
+                    <li>
+                        <a class="nav-link px-3 text-white help-link" data-bs-toggle="collapse" href="#helpText" role="button" aria-expanded="false" aria-controls="helpText">
+                            <span class="me-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-info-square"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"
+                    />
+                    <path
+                      d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"
+                    />
+                  </svg>
+                </span>
+                            <span class="fw-bold text-uppercase">HELP</span>
+                            <span class="arrow-right ms-auto">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-chevron-down"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"
+                    />
+                  </svg>
+                </span>
+                        </a>
+                        <div class="collapse" id="helpText">
+                            <div class="card card-body bg-dark p-1">
+                                You can see the reports as you want by selecting the start and end dates.
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <!-- offcanvas end -->
+    <!-- main content start -->
+    <main class="mt-5 pt-3">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-3">
+                        <div class="card-header text-uppercase">Income</div>
+                        <div class="card-body">
+                            <h5 class="card-title">Last Five Income</h5>
+                            <p class="card-text">
+                                <table id="example" class="table table-striped" style="width: 100%">
+                                    <thead>
+                                        <tr>
+                                            <th>Date</th>
+                                            <th>Name</th>
+                                            <th>Amount</th>
+                                            <th>Type</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="lastFiveIncome">
+
+                                    </tbody>
+                                </table>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-3">
+                        <div class="card-header text-uppercase">Expenses</div>
+                        <div class="card-body">
+                            <h5 class="card-title">Last Five Expenses</h5>
+                            <p class="card-text">
+                                <table id="example" class="table table-striped" style="width: 100%">
+                                    <thead>
+                                        <tr>
+                                            <th>Date</th>
+                                            <th>Name</th>
+                                            <th>Amount</th>
+                                            <th>Type</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="lastFiveExpenses">
+
+                                    </tbody>
+                                </table>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-3">
+                        <div class="card-header text-uppercase">Promises</div>
+                        <div class="card-body">
+                            <h5 class="card-title">Undeposited Donation Promises</h5>
+                            <p class="card-text">
+                                <table id="example" class="table table-striped" style="width: 100%">
+                                    <thead>
+                                        <tr>
+                                            <th>Name</th>
+                                            <th>Promises</th>
+                                            <th>Donation</th>
+                                            <th>Difference</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="printPromise">
+
+                                    </tbody>
+                                </table>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <div class="card h-100">
+                        <div class="card-header">
+                            <span class="me-2"><i class="bi bi-bar-chart-fill"></i></span> Yearly Income Chart
+                        </div>
+                        <div class="card-body">
+                            <canvas class="inc-chart" width="400" height="200"></canvas>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card h-100">
+                        <div class="card-header">
+                            <span class="me-2"><i class="bi bi-bar-chart-fill"></i></span> Yearly Expenses Chart
+                        </div>
+                        <div class="card-body">
+                            <canvas class="exp-chart" width="400" height="200"></canvas>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card h-100">
+                        <div class="card-header">
+                            <span class="me-2"><i class="bi bi-bar-chart-fill"></i></span> Income Expense Comparison
+                        </div>
+                        <div class="card-body">
+                            <canvas class="mix-chart" width="400" height="200"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 mb-3">
+                    <div class="card">
+                        <div class="card-header">
+                            <span><i class="bi bi-table me-2"></i></span> Data Table
+                        </div>
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <table id="example" class="table table-striped data-table" style="width: 100%">
+                                    <thead>
+                                        <tr>
+                                            <th>Name</th>
+                                            <th>Address</th>
+                                            <th>Area</th>
+                                            <th>Group</th>
+                                            <th>Promise</th>
+                                            <th>Total Donation</th>
+                                            <th>Difference</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="printTable">
+                                    </tbody>
+                                    <tfoot>
+                                        <tr>
+                                            <th>Name</th>
+                                            <th>Address</th>
+                                            <th>Area</th>
+                                            <th>Group</th>
+                                            <th>Promise</th>
+                                            <th>Total Donation</th>
+                                            <th>Difference</th>
+                                        </tr>
+                                    </tfoot>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- main content end -->
+
+    <!-- JSON DATA -->
+
+
+    <!-- JavaScript -->
+    <script src="./code_files/bootstrap/Bootstrap-5-5.0.1/js/bootstrap.bundle.min.js "></script>
+    <script src="./code_files/bootstrap/jQuery-3.6.0/jquery-3.6.0.min.js "></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.6.0/dist/chart.min.js"></script>
+    <script src="./code_files/bootstrap/DataTables-1.11.5/js/jquery.dataTables.min.js "></script>
+    <!-- <script src="./code_files/bootstrap/datatables.min.js "></script> -->
+    <script src="./code_files/bootstrap/DataTables-1.11.5/js/dataTables.bootstrap5.min.js "></script>
+    <!-- My JS files -->
+    <script src="./code_files/js/graph.js"></script>
+</body>
+
+</html>
