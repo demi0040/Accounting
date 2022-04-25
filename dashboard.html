@@ -292,7 +292,7 @@
     <main class="mt-5 pt-3">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4 p-1">
                     <div class="card mb-3">
                         <div class="card-header text-uppercase">Income</div>
                         <div class="card-body">
@@ -315,7 +315,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 p-1">
                     <div class="card mb-3">
                         <div class="card-header text-uppercase">Expenses</div>
                         <div class="card-body">
@@ -338,19 +338,19 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 p-1">
                     <div class="card mb-3">
                         <div class="card-header text-uppercase">Promises</div>
                         <div class="card-body">
-                            <h5 class="card-title">Undeposited Donation Promises</h5>
+                            <h5 class="card-title">UNPAID PLEDGES</h5>
                             <p class="card-text">
                                 <table id="example" class="table table-striped" style="width: 100%">
                                     <thead>
                                         <tr>
                                             <th>Name</th>
-                                            <th>Promises</th>
-                                            <th>Donation</th>
-                                            <th>Difference</th>
+                                            <th>Prom.</th>
+                                            <th>Don.</th>
+                                            <th>Dif.</th>
                                         </tr>
                                     </thead>
                                     <tbody id="printPromise">
@@ -363,7 +363,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4 mb-3">
+                <div class="col-md-4 mb-3 p-1">
                     <div class="card h-100">
                         <div class="card-header">
                             <span class="me-2"><i class="bi bi-bar-chart-fill"></i></span> Yearly Income Chart
@@ -373,7 +373,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mb-3">
+                <div class="col-md-4 mb-3 p-1">
                     <div class="card h-100">
                         <div class="card-header">
                             <span class="me-2"><i class="bi bi-bar-chart-fill"></i></span> Yearly Expenses Chart
@@ -383,7 +383,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mb-3">
+                <div class="col-md-4 mb-3 p-1">
                     <div class="card h-100">
                         <div class="card-header">
                             <span class="me-2"><i class="bi bi-bar-chart-fill"></i></span> Income Expense Comparison
@@ -395,14 +395,12 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-12 mb-3">
+                <div class="col-md-12 mb-3 p-1">
                     <div class="card">
                         <div class="card-header">
                             <span class="col-md-6"><i class="bi bi-table me-2"></i>Data Table</span>
                             <button class="btn btn-primary float-end" id="incomeTable">Income</button>
                             <button class="btn btn-primary float-end me-1" id="expensesTable">Expenses</button>
-                            <script>
-                            </script>
                         </div>
                         <div class="card-body">
                             <div class="table-responsive">
@@ -418,8 +416,7 @@
                                             <th>Difference</th>
                                         </tr>
                                     </thead>
-                                    <tbody id="incPrintTable">
-                                    </tbody>
+                                    <tbody id="incPrintTable"></tbody>
                                     <!-- <tbody id="expTablePrint"></tbody> -->
                                     <tfoot>
                                         <tr>

@@ -34,7 +34,7 @@ function incomeData(data) {
 function incomeTable(data) {
     let tableInf = []
     let incPrintTable = ""
-    let print = ""
+    let printProm = ""
     let total = 0
     let difference = 0
 
@@ -59,11 +59,11 @@ function incomeTable(data) {
     })
 
     lastFive.forEach(element => {
-        print += `<tr><td>${element[6]}</td><td>$${element[4]}</td><td>$${element[5].toFixed(2)}</td><td>$${element[0].toFixed(2)}</td></tr>`
+        printProm += `<tr><td>${element[6]}</td><td>$${element[4].toFixed(0)}</td><td>$${element[5].toFixed(0)}</td><td class="fw-bold">$${element[0].toFixed(0)}</td></tr>`
     })
 
     document.getElementById("incPrintTable").innerHTML = incPrintTable
-    document.getElementById("printPromise").innerHTML = print
+    document.getElementById("printPromise").innerHTML = printProm
 }
 
 // Expenses

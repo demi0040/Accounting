@@ -1,7 +1,7 @@
 :root {
-  --offcanvas-width: 240px;
+  --offcanvas-width: 220px;
   --topNavbarHeight: 2rem;
-  --topNavbarGap: 15rem;
+  --topNavbarGap: 13.82rem;
 }
 
 .sidebar-nav {
@@ -55,8 +55,11 @@
   height: auto;
 }
 
-td,
-th {
+td {
   font-size: small;
+}
+
+th {
+  font-size: smaller;
 }
 /*# sourceMappingURL=main.css.map */
