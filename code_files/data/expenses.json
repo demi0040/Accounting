@@ -1,500 +1,4501 @@
-[{"id":1,"date":"2022-08-11","category":"Home","expense_name":"Signet Jewelers Limited","amount":1335.71,"type":"cash","desciption":null},
-{"id":2,"date":"2022-05-03","category":"Automotive","expense_name":"Restaurant Brands International Inc.","amount":2377.68,"type":"cash","desciption":null},
-{"id":3,"date":"2022-01-01","category":"Music","expense_name":"ANSYS, Inc.","amount":6479.42,"type":"cash","desciption":null},
-{"id":4,"date":"2022-01-25","category":"Kids","expense_name":"Peregrine Pharmaceuticals Inc.","amount":7560.66,"type":"bank","desciption":null},
-{"id":5,"date":"2022-10-12","category":"Home","expense_name":"Bio-Path Holdings, Inc.","amount":2215.25,"type":"cash","desciption":null},
-{"id":6,"date":"2022-05-12","category":"Clothing","expense_name":"Barington/Hilco Acquisition Corp.","amount":5965.81,"type":"bank","desciption":null},
-{"id":7,"date":"2022-08-03","category":"Beauty","expense_name":"U.S. Bancorp","amount":4490.66,"type":"bank","desciption":"vehicula condimentum curabitur"},
-{"id":8,"date":"2022-03-05","category":"Sports","expense_name":"Nuveen Floating Rate Income Opportuntiy Fund","amount":4223.45,"type":"cash","desciption":null},
-{"id":9,"date":"2022-12-07","category":"Books","expense_name":"CHS Inc","amount":3338.46,"type":"bank","desciption":null},
-{"id":10,"date":"2022-08-20","category":"Industrial","expense_name":"Diana Shipping inc.","amount":9377.22,"type":"bank","desciption":"nunc commodo placerat"},
-{"id":11,"date":"2022-10-27","category":"Sports","expense_name":"Just Energy Group, Inc.","amount":3993.14,"type":"cash","desciption":null},
-{"id":12,"date":"2022-03-24","category":"Books","expense_name":"Galena Biopharma, Inc.","amount":1091.24,"type":"cash","desciption":null},
-{"id":13,"date":"2022-07-21","category":"Beauty","expense_name":"PartnerRe Ltd.","amount":3818.97,"type":"bank","desciption":null},
-{"id":14,"date":"2022-08-18","category":"Clothing","expense_name":"Newmont Mining Corporation","amount":7016.12,"type":"bank","desciption":null},
-{"id":15,"date":"2022-06-04","category":"Clothing","expense_name":"Revlon, Inc.","amount":3532.69,"type":"cash","desciption":null},
-{"id":16,"date":"2022-04-02","category":"Movies","expense_name":"Fuling Global Inc.","amount":3558.52,"type":"bank","desciption":null},
-{"id":17,"date":"2022-04-20","category":"Computers","expense_name":"icad inc.","amount":1728.4,"type":"bank","desciption":null},
-{"id":18,"date":"2022-06-22","category":"Garden","expense_name":"Dynex Capital, Inc.","amount":7641.51,"type":"cash","desciption":"integer ac neque"},
-{"id":19,"date":"2022-02-01","category":"Games","expense_name":"BroadSoft, Inc.","amount":9269.09,"type":"cash","desciption":null},
-{"id":20,"date":"2022-09-09","category":"Movies","expense_name":"Warrior Met Coal, Inc.","amount":6425.58,"type":"bank","desciption":null},
-{"id":21,"date":"2022-12-05","category":"Movies","expense_name":"Kemet Corporation","amount":361.49,"type":"bank","desciption":null},
-{"id":22,"date":"2022-07-29","category":"Outdoors","expense_name":"DTE Energy Company","amount":9932.55,"type":"bank","desciption":null},
-{"id":23,"date":"2022-10-26","category":"Books","expense_name":"Platform Specialty Products Corporation","amount":7994.11,"type":"bank","desciption":null},
-{"id":24,"date":"2022-02-19","category":"Jewelry","expense_name":"Calamos Convertible and High Income Fund","amount":1546.22,"type":"cash","desciption":null},
-{"id":25,"date":"2022-06-27","category":"Grocery","expense_name":"The Dixie Group, Inc.","amount":2629.23,"type":"cash","desciption":null},
-{"id":26,"date":"2022-01-25","category":"Baby","expense_name":"Nuveen New York Municipal Value Fund 2","amount":1908.06,"type":"bank","desciption":null},
-{"id":27,"date":"2022-01-30","category":"Tools","expense_name":"EnteroMedics Inc.","amount":1067.3,"type":"bank","desciption":null},
-{"id":28,"date":"2022-04-01","category":"Home","expense_name":"Argan, Inc.","amount":6492.77,"type":"cash","desciption":null},
-{"id":29,"date":"2022-08-17","category":"Shoes","expense_name":"Cowen Inc.","amount":5862.35,"type":"bank","desciption":null},
-{"id":30,"date":"2022-03-02","category":"Books","expense_name":"Qumu Corporation","amount":313.59,"type":"bank","desciption":null},
-{"id":31,"date":"2022-07-25","category":"Baby","expense_name":"Covanta Holding Corporation","amount":1183.54,"type":"cash","desciption":null},
-{"id":32,"date":"2022-10-16","category":"Electronics","expense_name":"Ares Commercial Real Estate Corporation","amount":2622.67,"type":"cash","desciption":null},
-{"id":33,"date":"2022-08-22","category":"Movies","expense_name":"CONSOL Energy Inc.","amount":3480.57,"type":"bank","desciption":null},
-{"id":34,"date":"2022-06-15","category":"Shoes","expense_name":"Highwoods Properties, Inc.","amount":5340.79,"type":"cash","desciption":null},
-{"id":35,"date":"2022-07-31","category":"Grocery","expense_name":"BSQUARE Corporation","amount":8371.83,"type":"bank","desciption":null},
-{"id":36,"date":"2022-06-28","category":"Shoes","expense_name":"Morgan Stanley Emerging Markets Debt Fund, Inc.","amount":9115.96,"type":"bank","desciption":null},
-{"id":37,"date":"2022-01-05","category":"Baby","expense_name":"Rennova Health, Inc.","amount":776.68,"type":"bank","desciption":null},
-{"id":38,"date":"2022-05-12","category":"Automotive","expense_name":"PrivateBancorp, Inc.","amount":2103.39,"type":"bank","desciption":null},
-{"id":39,"date":"2022-07-17","category":"Kids","expense_name":"Adverum Biotechnologies, Inc.","amount":8560.27,"type":"bank","desciption":null},
-{"id":40,"date":"2022-07-27","category":"Grocery","expense_name":"J. W. Mays, Inc.","amount":885.83,"type":"bank","desciption":null},
-{"id":41,"date":"2022-08-24","category":"Books","expense_name":"BlackRock Municipal Income Trust","amount":3390.19,"type":"bank","desciption":null},
-{"id":42,"date":"2022-02-12","category":"Automotive","expense_name":"Myers Industries, Inc.","amount":720.1,"type":"cash","desciption":null},
-{"id":43,"date":"2022-05-07","category":"Outdoors","expense_name":"Gladstone Investment Corporation","amount":9577.41,"type":"cash","desciption":null},
-{"id":44,"date":"2022-06-19","category":"Industrial","expense_name":"Dorchester Minerals, L.P.","amount":4024.41,"type":"bank","desciption":"vulputate elementum"},
-{"id":45,"date":"2022-12-13","category":"Automotive","expense_name":"The Kraft Heinz Company","amount":8705.0,"type":"cash","desciption":null},
-{"id":46,"date":"2022-07-20","category":"Electronics","expense_name":"Trupanion, Inc.","amount":6285.66,"type":"cash","desciption":null},
-{"id":47,"date":"2022-10-11","category":"Music","expense_name":"Cabela's Inc","amount":3045.01,"type":"cash","desciption":null},
-{"id":48,"date":"2022-10-23","category":"Electronics","expense_name":"Virtus Investment Partners, Inc.","amount":7074.69,"type":"cash","desciption":null},
-{"id":49,"date":"2022-12-21","category":"Outdoors","expense_name":"First Trust SSI Strategic Convertible Securities ETF","amount":7350.62,"type":"bank","desciption":"vestibulum ante ipsum"},
-{"id":50,"date":"2022-10-24","category":"Games","expense_name":"Tortoise Energy Infrastructure Corporation","amount":9385.68,"type":"bank","desciption":null},
-{"id":51,"date":"2022-03-04","category":"Kids","expense_name":"Jazz Pharmaceuticals plc","amount":1759.21,"type":"cash","desciption":null},
-{"id":52,"date":"2022-01-18","category":"Beauty","expense_name":"BLACKROCK INTERNATIONAL, LTD.","amount":3255.3,"type":"cash","desciption":null},
-{"id":53,"date":"2022-05-27","category":"Games","expense_name":"ASML Holding N.V.","amount":3479.3,"type":"cash","desciption":null},
-{"id":54,"date":"2022-12-24","category":"Movies","expense_name":"Century Aluminum Company","amount":6529.04,"type":"bank","desciption":null},
-{"id":55,"date":"2022-02-06","category":"Baby","expense_name":"iShares GNMA Bond ETF","amount":5623.2,"type":"cash","desciption":null},
-{"id":56,"date":"2022-06-30","category":"Health","expense_name":"BB&T Corporation","amount":6694.07,"type":"bank","desciption":null},
-{"id":57,"date":"2022-01-04","category":"Tools","expense_name":"Entergy Louisiana, Inc.","amount":856.68,"type":"cash","desciption":null},
-{"id":58,"date":"2022-08-09","category":"Movies","expense_name":"QTS Realty Trust, Inc.","amount":5309.84,"type":"bank","desciption":null},
-{"id":59,"date":"2022-08-22","category":"Electronics","expense_name":"General Finance Corporation","amount":7995.39,"type":"bank","desciption":"morbi porttitor"},
-{"id":60,"date":"2022-04-20","category":"Jewelry","expense_name":"CM Finance Inc","amount":4841.96,"type":"bank","desciption":null},
-{"id":61,"date":"2022-08-15","category":"Toys","expense_name":"SunCoke Energy, Inc.","amount":3855.22,"type":"bank","desciption":null},
-{"id":62,"date":"2022-02-22","category":"Outdoors","expense_name":"Staples, Inc.","amount":5580.11,"type":"bank","desciption":null},
-{"id":63,"date":"2022-02-07","category":"Toys","expense_name":"Delta Natural Gas Company, Inc.","amount":8756.67,"type":"bank","desciption":null},
-{"id":64,"date":"2022-02-04","category":"Jewelry","expense_name":"Digital Realty Trust, Inc.","amount":7749.97,"type":"cash","desciption":null},
-{"id":65,"date":"2022-02-05","category":"Sports","expense_name":"HC2 Holdings, Inc.","amount":6991.71,"type":"cash","desciption":null},
-{"id":66,"date":"2022-02-21","category":"Garden","expense_name":"Cancer Genetics, Inc.","amount":1381.93,"type":"cash","desciption":null},
-{"id":67,"date":"2022-07-12","category":"Games","expense_name":"Southern California Edison Company","amount":9065.43,"type":"bank","desciption":null},
-{"id":68,"date":"2022-02-24","category":"Music","expense_name":"PIMCO Municipal Income Fund III","amount":9807.32,"type":"bank","desciption":null},
-{"id":69,"date":"2022-08-13","category":"Music","expense_name":"AG Mortgage Investment Trust, Inc.","amount":381.46,"type":"bank","desciption":null},
-{"id":70,"date":"2022-08-07","category":"Clothing","expense_name":"Industrial Services of America, Inc.","amount":7564.55,"type":"bank","desciption":null},
-{"id":71,"date":"2022-07-11","category":"Jewelry","expense_name":"La Jolla Pharmaceutical Company","amount":2671.83,"type":"cash","desciption":null},
-{"id":72,"date":"2022-04-23","category":"Industrial","expense_name":"MFS Government Markets Income Trust","amount":8934.98,"type":"cash","desciption":null},
-{"id":73,"date":"2022-08-29","category":"Music","expense_name":"Eaton Vance Municipal Income Trust","amount":4718.19,"type":"cash","desciption":null},
-{"id":74,"date":"2022-09-16","category":"Computers","expense_name":"Lexicon Pharmaceuticals, Inc.","amount":8578.63,"type":"cash","desciption":null},
-{"id":75,"date":"2022-04-09","category":"Shoes","expense_name":"World Acceptance Corporation","amount":9857.38,"type":"cash","desciption":null},
-{"id":76,"date":"2022-01-19","category":"Outdoors","expense_name":"KalVista Pharmaceuticals, Inc.","amount":992.79,"type":"cash","desciption":"nascetur ridiculus mus"},
-{"id":77,"date":"2022-04-11","category":"Shoes","expense_name":"Blackrock Corporate High Yield Fund, Inc.","amount":7872.53,"type":"bank","desciption":"volutpat erat"},
-{"id":78,"date":"2022-05-15","category":"Shoes","expense_name":"Onvia, Inc.","amount":1731.87,"type":"bank","desciption":null},
-{"id":79,"date":"2022-03-28","category":"Tools","expense_name":"AquaVenture Holdings Limited","amount":526.21,"type":"bank","desciption":null},
-{"id":80,"date":"2022-09-11","category":"Computers","expense_name":"X-Links Silver Shares Covered Call ETN","amount":7266.67,"type":"bank","desciption":null},
-{"id":81,"date":"2022-10-29","category":"Beauty","expense_name":"First Citizens BancShares, Inc.","amount":6272.94,"type":"bank","desciption":null},
-{"id":82,"date":"2022-06-25","category":"Kids","expense_name":"Canadian Natural Resources Limited","amount":2817.46,"type":"bank","desciption":null},
-{"id":83,"date":"2022-03-01","category":"Toys","expense_name":"Blackrock Florida Municipal 2020 Term Trust","amount":3086.98,"type":"bank","desciption":null},
-{"id":84,"date":"2022-08-30","category":"Beauty","expense_name":"Belmond Ltd.","amount":9779.73,"type":"bank","desciption":null},
-{"id":85,"date":"2022-05-28","category":"Clothing","expense_name":"Westinghouse Air Brake Technologies Corporation","amount":9249.43,"type":"bank","desciption":"lacus purus aliquet"},
-{"id":86,"date":"2022-10-30","category":"Shoes","expense_name":"Horizons DAX Germany ETF","amount":1038.37,"type":"bank","desciption":null},
-{"id":87,"date":"2022-08-29","category":"Music","expense_name":"The Dixie Group, Inc.","amount":7786.65,"type":"bank","desciption":null},
-{"id":88,"date":"2022-11-13","category":"Movies","expense_name":"Western Asset Emerging Markets Debt Fund Inc","amount":8153.65,"type":"bank","desciption":"nascetur ridiculus mus"},
-{"id":89,"date":"2022-02-10","category":"Beauty","expense_name":"Allison Transmission Holdings, Inc.","amount":8017.17,"type":"bank","desciption":null},
-{"id":90,"date":"2022-11-24","category":"Toys","expense_name":"Blackrock MuniYield California Insured Fund, Inc.","amount":6882.97,"type":"bank","desciption":null},
-{"id":91,"date":"2022-10-03","category":"Clothing","expense_name":"BRF S.A.","amount":1922.38,"type":"cash","desciption":null},
-{"id":92,"date":"2022-01-24","category":"Toys","expense_name":"VictoryShares US EQ Income Enhanced Volatility Wtd ETF","amount":1014.75,"type":"bank","desciption":null},
-{"id":93,"date":"2022-08-11","category":"Home","expense_name":"Wal-Mart Stores, Inc.","amount":3380.71,"type":"cash","desciption":null},
-{"id":94,"date":"2022-08-06","category":"Computers","expense_name":"Knoll, Inc.","amount":6610.5,"type":"bank","desciption":null},
-{"id":95,"date":"2022-10-18","category":"Electronics","expense_name":"Vanguard Total International Stock ETF","amount":5728.77,"type":"bank","desciption":null},
-{"id":96,"date":"2022-07-23","category":"Toys","expense_name":"Acacia Research Corporation","amount":3587.42,"type":"bank","desciption":null},
-{"id":97,"date":"2022-10-17","category":"Tools","expense_name":"KB Home","amount":5613.89,"type":"cash","desciption":null},
-{"id":98,"date":"2022-12-07","category":"Beauty","expense_name":"Cisco Systems, Inc.","amount":9114.96,"type":"bank","desciption":"justo morbi"},
-{"id":99,"date":"2022-01-29","category":"Movies","expense_name":"Lumber Liquidators Holdings, Inc","amount":3875.59,"type":"bank","desciption":null},
-{"id":100,"date":"2022-01-26","category":"Computers","expense_name":"Autobytel Inc.","amount":7507.29,"type":"cash","desciption":null},
-{"id":101,"date":"2022-01-11","category":"Garden","expense_name":"Virtu Financial, Inc.","amount":9989.9,"type":"cash","desciption":null},
-{"id":102,"date":"2022-05-31","category":"Music","expense_name":"Transocean Ltd.","amount":969.44,"type":"cash","desciption":null},
-{"id":103,"date":"2022-05-31","category":"Movies","expense_name":"Investors Real Estate Trust","amount":8192.97,"type":"cash","desciption":"porttitor lacus at"},
-{"id":104,"date":"2022-02-03","category":"Baby","expense_name":"Domtar Corporation","amount":5031.85,"type":"bank","desciption":null},
-{"id":105,"date":"2022-08-17","category":"Shoes","expense_name":"Pendrell Corporation","amount":2598.82,"type":"cash","desciption":null},
-{"id":106,"date":"2022-03-18","category":"Computers","expense_name":"Atento S.A.","amount":2559.85,"type":"bank","desciption":null},
-{"id":107,"date":"2022-05-24","category":"Books","expense_name":"Corcept Therapeutics Incorporated","amount":3572.42,"type":"cash","desciption":null},
-{"id":108,"date":"2022-06-25","category":"Health","expense_name":"Anheuser-Busch Inbev SA","amount":9684.03,"type":"bank","desciption":null},
-{"id":109,"date":"2022-05-20","category":"Beauty","expense_name":"Stanley Black & Decker, Inc.","amount":9785.88,"type":"bank","desciption":null},
-{"id":110,"date":"2022-06-26","category":"Grocery","expense_name":"Patterson Companies, Inc.","amount":2799.25,"type":"cash","desciption":"sit amet erat"},
-{"id":111,"date":"2022-09-20","category":"Tools","expense_name":"Aberdeen Greater China Fund, Inc.","amount":6387.42,"type":"cash","desciption":null},
-{"id":112,"date":"2022-03-04","category":"Kids","expense_name":"Aeglea BioTherapeutics, Inc.","amount":3288.02,"type":"cash","desciption":"ut ultrices"},
-{"id":113,"date":"2022-12-10","category":"Computers","expense_name":"Nuance Communications, Inc.","amount":4747.09,"type":"cash","desciption":null},
-{"id":114,"date":"2022-04-12","category":"Sports","expense_name":"Chart Industries, Inc.","amount":3151.77,"type":"bank","desciption":null},
-{"id":115,"date":"2022-12-07","category":"Music","expense_name":"Hingham Institution for Savings","amount":2505.94,"type":"cash","desciption":null},
-{"id":116,"date":"2022-10-09","category":"Shoes","expense_name":"Vanguard Global ex-U.S. Real Estate ETF","amount":1496.49,"type":"cash","desciption":null},
-{"id":117,"date":"2022-11-26","category":"Grocery","expense_name":"Mitcham Industries, Inc.","amount":5985.42,"type":"cash","desciption":null},
-{"id":118,"date":"2022-05-28","category":"Automotive","expense_name":"Nuveen Floating Rate Income Opportuntiy Fund","amount":4715.92,"type":"bank","desciption":null},
-{"id":119,"date":"2022-11-18","category":"Shoes","expense_name":"China Petroleum & Chemical Corporation","amount":7150.84,"type":"bank","desciption":null},
-{"id":120,"date":"2022-04-22","category":"Games","expense_name":"Trinity Industries, Inc.","amount":125.74,"type":"cash","desciption":null},
-{"id":121,"date":"2022-01-02","category":"Grocery","expense_name":"Aegion Corp","amount":1895.58,"type":"cash","desciption":null},
-{"id":122,"date":"2022-07-04","category":"Shoes","expense_name":"Calumet Specialty Products Partners, L.P.","amount":3419.49,"type":"cash","desciption":null},
-{"id":123,"date":"2022-02-09","category":"Outdoors","expense_name":"iPath US Treasury 10-year Bull ETN","amount":2914.23,"type":"cash","desciption":null},
-{"id":124,"date":"2022-02-05","category":"Music","expense_name":"CNA Financial Corporation","amount":9134.13,"type":"cash","desciption":null},
-{"id":125,"date":"2022-06-13","category":"Shoes","expense_name":"DNB Financial Corp","amount":2515.95,"type":"cash","desciption":null},
-{"id":126,"date":"2022-07-26","category":"Home","expense_name":"CalAtlantic Group, Inc.","amount":2959.07,"type":"bank","desciption":null},
-{"id":127,"date":"2022-06-28","category":"Automotive","expense_name":"FirstEnergy Corporation","amount":7152.02,"type":"bank","desciption":null},
-{"id":128,"date":"2022-01-14","category":"Tools","expense_name":"Superconductor Technologies Inc.","amount":8726.41,"type":"bank","desciption":null},
-{"id":129,"date":"2022-06-30","category":"Shoes","expense_name":"Ionis Pharmaceuticals, Inc.","amount":8469.93,"type":"bank","desciption":null},
-{"id":130,"date":"2022-04-23","category":"Toys","expense_name":"Virtus Global Multi-Sector Income Fund","amount":8051.52,"type":"bank","desciption":null},
-{"id":131,"date":"2022-07-28","category":"Home","expense_name":"Kadant Inc","amount":2022.99,"type":"cash","desciption":null},
-{"id":132,"date":"2022-05-21","category":"Jewelry","expense_name":"Advanced Energy Industries, Inc.","amount":7547.64,"type":"cash","desciption":null},
-{"id":133,"date":"2022-03-31","category":"Automotive","expense_name":"Tyson Foods, Inc.","amount":5435.08,"type":"bank","desciption":null},
-{"id":134,"date":"2022-03-13","category":"Shoes","expense_name":"PC-Tel, Inc.","amount":6602.13,"type":"cash","desciption":null},
-{"id":135,"date":"2022-04-24","category":"Kids","expense_name":"Kayne Anderson Acquisition Corp.","amount":931.5,"type":"cash","desciption":null},
-{"id":136,"date":"2022-05-18","category":"Games","expense_name":"Lindblad Expeditions Holdings Inc. ","amount":6096.22,"type":"cash","desciption":null},
-{"id":137,"date":"2022-09-17","category":"Games","expense_name":"DASAN Zhone Solutions, Inc.","amount":2129.36,"type":"cash","desciption":null},
-{"id":138,"date":"2022-05-03","category":"Outdoors","expense_name":"NuVasive, Inc.","amount":3074.58,"type":"cash","desciption":null},
-{"id":139,"date":"2022-05-14","category":"Automotive","expense_name":"Semgroup Corporation","amount":5859.16,"type":"bank","desciption":null},
-{"id":140,"date":"2022-05-10","category":"Computers","expense_name":"Catabasis Pharmaceuticals, Inc.","amount":6197.31,"type":"bank","desciption":null},
-{"id":141,"date":"2022-06-30","category":"Toys","expense_name":"Orthofix International N.V.","amount":9206.52,"type":"bank","desciption":null},
-{"id":142,"date":"2022-06-18","category":"Baby","expense_name":"Regulus Therapeutics Inc.","amount":7569.94,"type":"cash","desciption":null},
-{"id":143,"date":"2022-03-21","category":"Garden","expense_name":"Ashford Hospitality Trust Inc","amount":2963.2,"type":"bank","desciption":null},
-{"id":144,"date":"2022-05-02","category":"Grocery","expense_name":"Virtus Total Return Fund Inc.","amount":5558.78,"type":"bank","desciption":null},
-{"id":145,"date":"2022-08-22","category":"Electronics","expense_name":"LendingTree, Inc.","amount":9986.47,"type":"cash","desciption":null},
-{"id":146,"date":"2022-05-24","category":"Books","expense_name":"Costco Wholesale Corporation","amount":4683.73,"type":"cash","desciption":null},
-{"id":147,"date":"2022-05-17","category":"Music","expense_name":"Jaguar Animal Health, Inc.","amount":4360.39,"type":"bank","desciption":null},
-{"id":148,"date":"2022-12-12","category":"Grocery","expense_name":"VictoryShares Dividend Accelerator ETF","amount":7545.86,"type":"cash","desciption":null},
-{"id":149,"date":"2022-11-28","category":"Electronics","expense_name":"EnPro Industries","amount":4969.34,"type":"bank","desciption":null},
-{"id":150,"date":"2022-04-21","category":"Beauty","expense_name":"Global Partners LP","amount":2821.61,"type":"bank","desciption":"posuere metus vitae"},
-{"id":151,"date":"2022-12-25","category":"Music","expense_name":"Neff Corporation","amount":6042.66,"type":"bank","desciption":null},
-{"id":152,"date":"2022-03-07","category":"Kids","expense_name":"ClubCorp Holdings, Inc.","amount":7724.13,"type":"bank","desciption":"at turpis donec"},
-{"id":153,"date":"2022-07-13","category":"Grocery","expense_name":"L Brands, Inc.","amount":4064.6,"type":"bank","desciption":null},
-{"id":154,"date":"2022-11-10","category":"Sports","expense_name":"Bio-Rad Laboratories, Inc.","amount":8610.96,"type":"cash","desciption":null},
-{"id":155,"date":"2022-04-04","category":"Books","expense_name":"2U, Inc.","amount":1724.72,"type":"bank","desciption":null},
-{"id":156,"date":"2022-04-02","category":"Music","expense_name":"Stellar Biotechnologies, Inc.","amount":5198.82,"type":"bank","desciption":null},
-{"id":157,"date":"2022-03-26","category":"Movies","expense_name":"Hersha Hospitality Trust","amount":1097.28,"type":"cash","desciption":"nulla nunc"},
-{"id":158,"date":"2022-07-11","category":"Grocery","expense_name":"iStar Financial Inc.","amount":2482.31,"type":"bank","desciption":null},
-{"id":159,"date":"2022-08-14","category":"Industrial","expense_name":"Electrum Special Acquisition Corporation","amount":3466.61,"type":"cash","desciption":null},
-{"id":160,"date":"2022-11-06","category":"Kids","expense_name":"Resource Capital Corp.","amount":2720.85,"type":"cash","desciption":null},
-{"id":161,"date":"2022-11-13","category":"Kids","expense_name":"Georgia Power Company","amount":9595.9,"type":"bank","desciption":null},
-{"id":162,"date":"2022-12-16","category":"Grocery","expense_name":"Ardelyx, Inc.","amount":728.44,"type":"bank","desciption":null},
-{"id":163,"date":"2022-02-02","category":"Industrial","expense_name":"Grupo Aeroportuario del Centro Norte S.A.B. de C.V.","amount":2350.12,"type":"cash","desciption":null},
-{"id":164,"date":"2022-06-14","category":"Movies","expense_name":"Clovis Oncology, Inc.","amount":5845.75,"type":"cash","desciption":"sit amet"},
-{"id":165,"date":"2022-05-07","category":"Beauty","expense_name":"Dril-Quip, Inc.","amount":1387.41,"type":"bank","desciption":null},
-{"id":166,"date":"2022-11-21","category":"Music","expense_name":"Heat Biologics, Inc.","amount":6356.38,"type":"cash","desciption":null},
-{"id":167,"date":"2022-02-17","category":"Sports","expense_name":"Customers Bancorp, Inc","amount":8386.19,"type":"cash","desciption":null},
-{"id":168,"date":"2022-07-27","category":"Music","expense_name":"Trupanion, Inc.","amount":7100.85,"type":"cash","desciption":null},
-{"id":169,"date":"2022-03-14","category":"Music","expense_name":"Aeglea BioTherapeutics, Inc.","amount":7569.72,"type":"bank","desciption":null},
-{"id":170,"date":"2022-12-21","category":"Industrial","expense_name":"Scudder Global High Income Fund, Inc.","amount":471.88,"type":"cash","desciption":null},
-{"id":171,"date":"2022-08-19","category":"Baby","expense_name":"Western Asset Investment Grade Defined Opportunity Trust Inc.","amount":7991.35,"type":"bank","desciption":null},
-{"id":172,"date":"2022-08-30","category":"Movies","expense_name":"Bravo Brio Restaurant Group, Inc.","amount":3641.04,"type":"cash","desciption":null},
-{"id":173,"date":"2022-02-03","category":"Outdoors","expense_name":"PowerShares Russell 1000 Low Beta Equal Weight Portfolio","amount":9299.6,"type":"bank","desciption":null},
-{"id":174,"date":"2022-08-18","category":"Sports","expense_name":"WageWorks, Inc.","amount":4553.7,"type":"cash","desciption":null},
-{"id":175,"date":"2022-10-31","category":"Home","expense_name":"Olin Corporation","amount":8170.1,"type":"cash","desciption":null},
-{"id":176,"date":"2022-06-22","category":"Jewelry","expense_name":"CyrusOne Inc","amount":210.32,"type":"cash","desciption":null},
-{"id":177,"date":"2022-12-27","category":"Shoes","expense_name":"Liquidity Services, Inc.","amount":8587.96,"type":"bank","desciption":null},
-{"id":178,"date":"2022-12-05","category":"Games","expense_name":"Tractor Supply Company","amount":2419.1,"type":"bank","desciption":null},
-{"id":179,"date":"2022-06-07","category":"Computers","expense_name":"National General Holdings Corp","amount":2622.37,"type":"cash","desciption":null},
-{"id":180,"date":"2022-04-14","category":"Toys","expense_name":"ServiceSource International, Inc.","amount":9258.72,"type":"bank","desciption":null},
-{"id":181,"date":"2022-10-22","category":"Computers","expense_name":"Wells Fargo & Company","amount":8441.81,"type":"bank","desciption":null},
-{"id":182,"date":"2022-04-13","category":"Tools","expense_name":"Legg Mason BW Global Income Opportunities Fund Inc.","amount":512.52,"type":"bank","desciption":null},
-{"id":183,"date":"2022-06-15","category":"Tools","expense_name":"Tallgrass Energy GP, LP","amount":2837.61,"type":"bank","desciption":null},
-{"id":184,"date":"2022-09-13","category":"Jewelry","expense_name":"TrueBlue, Inc.","amount":4499.92,"type":"bank","desciption":null},
-{"id":185,"date":"2022-06-17","category":"Industrial","expense_name":"Scudder Strategic Income Trust","amount":643.12,"type":"cash","desciption":null},
-{"id":186,"date":"2022-09-15","category":"Industrial","expense_name":"Simon Property Group, Inc.","amount":3933.92,"type":"bank","desciption":"nec dui luctus"},
-{"id":187,"date":"2022-05-23","category":"Electronics","expense_name":"Nuveen Multi-Market Income Fund","amount":129.36,"type":"bank","desciption":null},
-{"id":188,"date":"2022-07-17","category":"Kids","expense_name":"Whirlpool Corporation","amount":4899.26,"type":"bank","desciption":null},
-{"id":189,"date":"2022-01-04","category":"Outdoors","expense_name":"Duluth Holdings Inc.","amount":8343.33,"type":"cash","desciption":null},
-{"id":190,"date":"2022-04-03","category":"Toys","expense_name":"BlackRock Credit Allocation Income Trust","amount":8434.42,"type":"cash","desciption":null},
-{"id":191,"date":"2022-11-16","category":"Electronics","expense_name":"Newtek Business Services Corp.","amount":9844.36,"type":"bank","desciption":null},
-{"id":192,"date":"2022-05-23","category":"Electronics","expense_name":"Canada Goose Holdings Inc.","amount":7327.16,"type":"cash","desciption":null},
-{"id":193,"date":"2022-03-23","category":"Automotive","expense_name":"AllianzGI Convertible & Income Fund","amount":8839.84,"type":"bank","desciption":null},
-{"id":194,"date":"2022-10-15","category":"Shoes","expense_name":"LifePoint Health, Inc.","amount":5868.81,"type":"cash","desciption":null},
-{"id":195,"date":"2022-07-23","category":"Health","expense_name":"Senomyx, Inc.","amount":7045.79,"type":"cash","desciption":"erat id mauris"},
-{"id":196,"date":"2022-06-08","category":"Toys","expense_name":"Steel Partners Holdings LP","amount":2698.53,"type":"cash","desciption":null},
-{"id":197,"date":"2022-02-02","category":"Music","expense_name":"Stoneridge, Inc.","amount":5821.31,"type":"cash","desciption":null},
-{"id":198,"date":"2022-07-09","category":"Home","expense_name":"Calamos Convertible and High Income Fund","amount":2682.03,"type":"bank","desciption":null},
-{"id":199,"date":"2022-08-06","category":"Music","expense_name":"Adamas Pharmaceuticals, Inc.","amount":6525.74,"type":"cash","desciption":null},
-{"id":200,"date":"2022-11-20","category":"Games","expense_name":"ICF International, Inc.","amount":4395.52,"type":"bank","desciption":null},
-{"id":201,"date":"2022-04-05","category":"Books","expense_name":"eHealth, Inc.","amount":8217.07,"type":"bank","desciption":null},
-{"id":202,"date":"2022-08-28","category":"Toys","expense_name":"Chimera Investment Corporation","amount":4486.58,"type":"bank","desciption":null},
-{"id":203,"date":"2022-10-02","category":"Industrial","expense_name":"Vident Core U.S. Bond Strategy Fund","amount":9394.81,"type":"cash","desciption":null},
-{"id":204,"date":"2022-01-11","category":"Clothing","expense_name":"Berkshire Hills Bancorp, Inc.","amount":6095.26,"type":"cash","desciption":null},
-{"id":205,"date":"2022-01-14","category":"Sports","expense_name":"Rexnord Corporation","amount":5769.14,"type":"bank","desciption":null},
-{"id":206,"date":"2022-11-26","category":"Baby","expense_name":"HRG Group, Inc.","amount":7935.75,"type":"bank","desciption":null},
-{"id":207,"date":"2022-05-06","category":"Movies","expense_name":"Chanticleer Holdings, Inc.","amount":2643.92,"type":"cash","desciption":null},
-{"id":208,"date":"2022-09-07","category":"Sports","expense_name":"D.R. Horton, Inc.","amount":5269.49,"type":"bank","desciption":null},
-{"id":209,"date":"2022-08-20","category":"Toys","expense_name":"B. Riley Financial, Inc.","amount":714.32,"type":"cash","desciption":null},
-{"id":210,"date":"2022-09-05","category":"Garden","expense_name":"Rio Tinto Plc","amount":2247.46,"type":"cash","desciption":null},
-{"id":211,"date":"2022-06-26","category":"Books","expense_name":"Allot Communications Ltd.","amount":6126.92,"type":"bank","desciption":null},
-{"id":212,"date":"2022-01-19","category":"Kids","expense_name":"Forterra, Inc.","amount":351.99,"type":"bank","desciption":null},
-{"id":213,"date":"2022-10-06","category":"Kids","expense_name":"Therapix Biosciences Ltd.","amount":5914.71,"type":"cash","desciption":"ipsum dolor sit"},
-{"id":214,"date":"2022-04-16","category":"Industrial","expense_name":"MSG Networks Inc.","amount":5965.45,"type":"cash","desciption":"eu massa donec"},
-{"id":215,"date":"2022-08-13","category":"Electronics","expense_name":"Weibo Corporation","amount":4913.2,"type":"cash","desciption":"risus auctor sed"},
-{"id":216,"date":"2022-11-13","category":"Home","expense_name":"Wins Finance Holdings Inc.","amount":2526.94,"type":"cash","desciption":null},
-{"id":217,"date":"2022-12-01","category":"Health","expense_name":"Vident Core US Equity ETF","amount":5503.12,"type":"bank","desciption":null},
-{"id":218,"date":"2022-12-24","category":"Automotive","expense_name":"NexPoint Residential Trust, Inc.","amount":88.06,"type":"cash","desciption":null},
-{"id":219,"date":"2022-08-09","category":"Computers","expense_name":"Wendy's Company (The)","amount":6043.1,"type":"cash","desciption":null},
-{"id":220,"date":"2022-10-29","category":"Clothing","expense_name":"IBERIABANK Corporation","amount":8473.96,"type":"cash","desciption":null},
-{"id":221,"date":"2022-03-07","category":"Automotive","expense_name":"Cabela's Inc","amount":2940.2,"type":"cash","desciption":null},
-{"id":222,"date":"2022-07-24","category":"Tools","expense_name":"Invitae Corporation","amount":671.49,"type":"bank","desciption":null},
-{"id":223,"date":"2022-10-11","category":"Clothing","expense_name":"A V Homes, Inc.","amount":8785.31,"type":"bank","desciption":null},
-{"id":224,"date":"2022-09-17","category":"Toys","expense_name":"Square, Inc.","amount":3226.02,"type":"bank","desciption":null},
-{"id":225,"date":"2022-05-23","category":"Movies","expense_name":"Tech Data Corporation","amount":5397.9,"type":"cash","desciption":null},
-{"id":226,"date":"2022-03-26","category":"Jewelry","expense_name":"Coca-Cola Bottling Co. Consolidated","amount":4372.13,"type":"bank","desciption":null},
-{"id":227,"date":"2022-09-10","category":"Kids","expense_name":"Greif Bros. Corporation","amount":7651.35,"type":"bank","desciption":null},
-{"id":228,"date":"2022-03-21","category":"Computers","expense_name":"Pebblebrook Hotel Trust","amount":6875.45,"type":"bank","desciption":null},
-{"id":229,"date":"2022-07-03","category":"Industrial","expense_name":"Philip Morris International Inc","amount":3649.23,"type":"bank","desciption":null},
-{"id":230,"date":"2022-03-04","category":"Kids","expense_name":"Novartis AG","amount":6707.08,"type":"bank","desciption":null},
-{"id":231,"date":"2022-07-17","category":"Beauty","expense_name":"Invesco California Value Municipal Income Trust","amount":5389.08,"type":"bank","desciption":null},
-{"id":232,"date":"2022-04-01","category":"Health","expense_name":"First Horizon National Corporation","amount":9322.99,"type":"cash","desciption":null},
-{"id":233,"date":"2022-12-23","category":"Computers","expense_name":"Yandex N.V.","amount":8108.54,"type":"cash","desciption":null},
-{"id":234,"date":"2022-07-08","category":"Music","expense_name":"Shaw Communications Inc.","amount":8855.44,"type":"bank","desciption":null},
-{"id":235,"date":"2022-09-03","category":"Tools","expense_name":"Zions Bancorporation","amount":2613.12,"type":"cash","desciption":null},
-{"id":236,"date":"2022-12-20","category":"Home","expense_name":"Prologis, Inc.","amount":4450.65,"type":"bank","desciption":null},
-{"id":237,"date":"2022-04-17","category":"Movies","expense_name":"LaSalle Hotel Properties","amount":2319.68,"type":"cash","desciption":null},
-{"id":238,"date":"2022-04-08","category":"Jewelry","expense_name":"WildHorse Resource Development Corporation","amount":7482.82,"type":"bank","desciption":null},
-{"id":239,"date":"2022-05-18","category":"Industrial","expense_name":"BLDRS Developed Markets 100 ADR Index Fund","amount":4793.4,"type":"bank","desciption":null},
-{"id":240,"date":"2022-03-02","category":"Tools","expense_name":"Turkcell Iletisim Hizmetleri AS","amount":2715.14,"type":"bank","desciption":null},
-{"id":241,"date":"2022-11-02","category":"Kids","expense_name":"Intuitive Surgical, Inc.","amount":5036.59,"type":"cash","desciption":null},
-{"id":242,"date":"2022-04-12","category":"Garden","expense_name":"Boston Private Financial Holdings, Inc.","amount":5796.16,"type":"bank","desciption":null},
-{"id":243,"date":"2022-10-27","category":"Books","expense_name":"Terex Corporation","amount":1840.36,"type":"cash","desciption":"eget tincidunt eget"},
-{"id":244,"date":"2022-10-02","category":"Books","expense_name":"The AES Corporation","amount":4581.96,"type":"bank","desciption":null},
-{"id":245,"date":"2022-10-31","category":"Garden","expense_name":"PennantPark Investment Corporation","amount":9260.4,"type":"bank","desciption":null},
-{"id":246,"date":"2022-06-21","category":"Computers","expense_name":"AVEO Pharmaceuticals, Inc.","amount":6882.16,"type":"cash","desciption":null},
-{"id":247,"date":"2022-12-27","category":"Clothing","expense_name":"Evertec, Inc.","amount":4493.85,"type":"cash","desciption":null},
-{"id":248,"date":"2022-01-23","category":"Health","expense_name":"Convergys Corporation","amount":6219.82,"type":"bank","desciption":null},
-{"id":249,"date":"2022-03-30","category":"Computers","expense_name":"Builders FirstSource, Inc.","amount":1252.82,"type":"cash","desciption":null},
-{"id":250,"date":"2022-05-31","category":"Garden","expense_name":"Tetra Tech, Inc.","amount":8197.22,"type":"cash","desciption":null},
-{"id":251,"date":"2022-10-15","category":"Kids","expense_name":"Cabot Microelectronics Corporation","amount":3104.09,"type":"cash","desciption":null},
-{"id":252,"date":"2022-09-17","category":"Clothing","expense_name":"FS Bancorp, Inc.","amount":2454.66,"type":"bank","desciption":null},
-{"id":253,"date":"2022-02-09","category":"Music","expense_name":"Estee Lauder Companies, Inc. (The)","amount":4322.11,"type":"cash","desciption":null},
-{"id":254,"date":"2022-03-25","category":"Garden","expense_name":"Duke Energy Corporation","amount":1948.73,"type":"bank","desciption":null},
-{"id":255,"date":"2022-08-26","category":"Sports","expense_name":"Chuy's Holdings, Inc.","amount":6009.76,"type":"cash","desciption":null},
-{"id":256,"date":"2022-07-29","category":"Home","expense_name":"SGOCO Group, Ltd","amount":6463.6,"type":"bank","desciption":null},
-{"id":257,"date":"2022-06-16","category":"Jewelry","expense_name":"Manitowoc Company, Inc. (The)","amount":3357.54,"type":"cash","desciption":"est donec odio"},
-{"id":258,"date":"2022-01-20","category":"Electronics","expense_name":"Clean Energy Fuels Corp.","amount":7541.69,"type":"cash","desciption":"aliquet pulvinar sed"},
-{"id":259,"date":"2022-10-04","category":"Jewelry","expense_name":"RAIT Financial Trust","amount":2172.57,"type":"bank","desciption":null},
-{"id":260,"date":"2022-01-02","category":"Computers","expense_name":"American Homes 4 Rent","amount":7728.66,"type":"cash","desciption":null},
-{"id":261,"date":"2022-07-30","category":"Industrial","expense_name":"iPath US Treasury Flattener ETN","amount":6021.56,"type":"bank","desciption":null},
-{"id":262,"date":"2022-12-26","category":"Toys","expense_name":"1st Constitution Bancorp (NJ)","amount":9203.48,"type":"cash","desciption":null},
-{"id":263,"date":"2022-09-30","category":"Music","expense_name":"Quinpario Acquisition Corp. 2","amount":8371.79,"type":"cash","desciption":null},
-{"id":264,"date":"2022-03-29","category":"Health","expense_name":"TAT Technologies Ltd.","amount":6629.44,"type":"bank","desciption":null},
-{"id":265,"date":"2022-01-29","category":"Health","expense_name":"Macquarie Global Infrastructure Total Return Fund Inc.","amount":559.07,"type":"bank","desciption":null},
-{"id":266,"date":"2022-08-30","category":"Jewelry","expense_name":"Automatic Data Processing, Inc.","amount":7938.22,"type":"cash","desciption":null},
-{"id":267,"date":"2022-03-24","category":"Games","expense_name":"WisdomTree Emerging Markets Quality Dividend Growth Fund","amount":7873.25,"type":"cash","desciption":null},
-{"id":268,"date":"2022-03-16","category":"Movies","expense_name":"Terex Corporation","amount":7100.42,"type":"cash","desciption":null},
-{"id":269,"date":"2022-10-19","category":"Kids","expense_name":"Cemtrex Inc.","amount":1299.73,"type":"bank","desciption":null},
-{"id":270,"date":"2022-07-18","category":"Shoes","expense_name":"IAC/InterActiveCorp","amount":5448.67,"type":"bank","desciption":null},
-{"id":271,"date":"2022-06-10","category":"Music","expense_name":"CommScope Holding Company, Inc.","amount":4979.37,"type":"bank","desciption":null},
-{"id":272,"date":"2022-04-03","category":"Grocery","expense_name":"Virco Manufacturing Corporation","amount":7624.08,"type":"bank","desciption":null},
-{"id":273,"date":"2022-04-20","category":"Grocery","expense_name":"Western Asset Investment Grade Defined Opportunity Trust Inc.","amount":3201.85,"type":"bank","desciption":null},
-{"id":274,"date":"2022-08-05","category":"Movies","expense_name":"Sotherly Hotels Inc.","amount":7851.13,"type":"bank","desciption":null},
-{"id":275,"date":"2022-02-18","category":"Industrial","expense_name":"Celldex Therapeutics, Inc.","amount":9501.68,"type":"bank","desciption":null},
-{"id":276,"date":"2022-04-06","category":"Jewelry","expense_name":"Fiduciary/Claymore MLP Opportunity Fund","amount":8583.73,"type":"cash","desciption":null},
-{"id":277,"date":"2022-06-08","category":"Shoes","expense_name":"Intellia Therapeutics, Inc.","amount":8605.2,"type":"cash","desciption":null},
-{"id":278,"date":"2022-04-10","category":"Home","expense_name":"Quantenna Communications, Inc.","amount":1532.15,"type":"cash","desciption":"lectus in est"},
-{"id":279,"date":"2022-06-20","category":"Garden","expense_name":"Jounce Therapeutics, Inc.","amount":5167.24,"type":"bank","desciption":null},
-{"id":280,"date":"2022-10-06","category":"Toys","expense_name":"Rexnord Corporation","amount":2894.98,"type":"cash","desciption":null},
-{"id":281,"date":"2022-01-11","category":"Automotive","expense_name":"Citizens First Corporation","amount":8029.49,"type":"bank","desciption":null},
-{"id":282,"date":"2022-07-13","category":"Grocery","expense_name":"Acacia Research Corporation","amount":5223.68,"type":"bank","desciption":null},
-{"id":283,"date":"2022-01-12","category":"Toys","expense_name":"Ocular Therapeutix, Inc.","amount":4237.63,"type":"cash","desciption":null},
-{"id":284,"date":"2022-02-05","category":"Garden","expense_name":"Diana Shipping inc.","amount":8236.74,"type":"cash","desciption":null},
-{"id":285,"date":"2022-03-09","category":"Tools","expense_name":"Nexeo Solutions, Inc.","amount":6241.43,"type":"bank","desciption":null},
-{"id":286,"date":"2022-10-08","category":"Health","expense_name":"Reinsurance Group of America, Incorporated","amount":6721.74,"type":"cash","desciption":null},
-{"id":287,"date":"2022-08-30","category":"Shoes","expense_name":"Dick's Sporting Goods Inc","amount":6638.41,"type":"bank","desciption":null},
-{"id":288,"date":"2022-04-27","category":"Grocery","expense_name":"Spectra Energy Partners, LP","amount":9275.52,"type":"bank","desciption":null},
-{"id":289,"date":"2022-02-12","category":"Grocery","expense_name":"Ekso Bionics Holdings, Inc.","amount":4847.17,"type":"cash","desciption":null},
-{"id":290,"date":"2022-09-12","category":"Home","expense_name":"Fanhua Inc.","amount":3427.1,"type":"cash","desciption":null},
-{"id":291,"date":"2022-11-10","category":"Garden","expense_name":"American Express Company","amount":8443.38,"type":"bank","desciption":null},
-{"id":292,"date":"2022-09-12","category":"Computers","expense_name":"Legg Mason, Inc.","amount":9397.53,"type":"bank","desciption":null},
-{"id":293,"date":"2022-01-06","category":"Computers","expense_name":"Tailored Brands, Inc.","amount":9590.04,"type":"bank","desciption":null},
-{"id":294,"date":"2022-05-22","category":"Movies","expense_name":"Career Education Corporation","amount":7791.57,"type":"cash","desciption":null},
-{"id":295,"date":"2022-11-13","category":"Movies","expense_name":"PowerShares LadderRite 0-5 Year Corporate Bond Portfolio","amount":467.63,"type":"cash","desciption":null},
-{"id":296,"date":"2022-10-09","category":"Electronics","expense_name":"Gartner, Inc.","amount":3170.75,"type":"bank","desciption":null},
-{"id":297,"date":"2022-08-13","category":"Jewelry","expense_name":"First Guaranty Bancshares, Inc.","amount":9007.59,"type":"bank","desciption":null},
-{"id":298,"date":"2022-04-06","category":"Outdoors","expense_name":"FairPoint Communications, Inc.","amount":6678.43,"type":"cash","desciption":null},
-{"id":299,"date":"2022-10-09","category":"Garden","expense_name":"Chart Industries, Inc.","amount":6953.76,"type":"cash","desciption":null},
-{"id":300,"date":"2022-07-28","category":"Sports","expense_name":"Financial Institutions, Inc.","amount":3518.75,"type":"bank","desciption":null},
-{"id":301,"date":"2022-03-26","category":"Computers","expense_name":"Carver Bancorp, Inc.","amount":4357.1,"type":"bank","desciption":null},
-{"id":302,"date":"2022-01-14","category":"Toys","expense_name":"Kadmon Holdings, Inc.","amount":5602.33,"type":"cash","desciption":null},
-{"id":303,"date":"2022-06-04","category":"Clothing","expense_name":"CYREN Ltd.","amount":3383.51,"type":"bank","desciption":null},
-{"id":304,"date":"2022-01-22","category":"Automotive","expense_name":"Tredegar Corporation","amount":2588.03,"type":"cash","desciption":null},
-{"id":305,"date":"2022-06-14","category":"Automotive","expense_name":"Clean Harbors, Inc.","amount":6827.91,"type":"bank","desciption":null},
-{"id":306,"date":"2022-01-27","category":"Grocery","expense_name":"Wabco Holdings Inc.","amount":2163.69,"type":"bank","desciption":null},
-{"id":307,"date":"2022-06-11","category":"Kids","expense_name":"Glatfelter","amount":1892.76,"type":"cash","desciption":null},
-{"id":308,"date":"2022-06-26","category":"Kids","expense_name":"Yext, Inc.","amount":7692.4,"type":"bank","desciption":null},
-{"id":309,"date":"2022-07-08","category":"Home","expense_name":"Fluor Corporation","amount":4883.05,"type":"bank","desciption":null},
-{"id":310,"date":"2022-03-31","category":"Health","expense_name":"Black Knight Financial Services, Inc.","amount":3998.78,"type":"cash","desciption":null},
-{"id":311,"date":"2022-04-22","category":"Kids","expense_name":"NICE Ltd","amount":6112.25,"type":"bank","desciption":null},
-{"id":312,"date":"2022-08-27","category":"Beauty","expense_name":"iShares Morningstar Mid-Cap ETF","amount":1527.04,"type":"bank","desciption":null},
-{"id":313,"date":"2022-01-06","category":"Baby","expense_name":"Union Bankshares Corporation","amount":8143.88,"type":"bank","desciption":null},
-{"id":314,"date":"2022-03-02","category":"Music","expense_name":"CME Group Inc.","amount":9077.29,"type":"bank","desciption":null},
-{"id":315,"date":"2022-11-15","category":"Grocery","expense_name":"Grupo Financiero Galicia S.A.","amount":6250.24,"type":"cash","desciption":null},
-{"id":316,"date":"2022-08-27","category":"Kids","expense_name":"M III Acquisition Corp.","amount":8811.56,"type":"cash","desciption":null},
-{"id":317,"date":"2022-08-06","category":"Music","expense_name":"bluebird bio, Inc.","amount":4721.24,"type":"bank","desciption":null},
-{"id":318,"date":"2022-01-06","category":"Beauty","expense_name":"Bank of America Corporation","amount":3657.55,"type":"cash","desciption":null},
-{"id":319,"date":"2022-09-01","category":"Sports","expense_name":"Medley Capital Corporation","amount":5799.28,"type":"cash","desciption":null},
-{"id":320,"date":"2022-10-15","category":"Music","expense_name":"Monster Beverage Corporation","amount":1744.88,"type":"cash","desciption":null},
-{"id":321,"date":"2022-12-11","category":"Home","expense_name":"CTI Industries Corporation","amount":2727.82,"type":"cash","desciption":"magnis dis parturient"},
-{"id":322,"date":"2022-12-29","category":"Automotive","expense_name":"Nuveen Municipal 2021 Target Term Fund","amount":9314.56,"type":"cash","desciption":null},
-{"id":323,"date":"2022-09-01","category":"Home","expense_name":"Versum Materials, Inc.","amount":6181.74,"type":"cash","desciption":null},
-{"id":324,"date":"2022-04-17","category":"Games","expense_name":"CSG Systems International, Inc.","amount":866.4,"type":"cash","desciption":null},
-{"id":325,"date":"2022-02-05","category":"Music","expense_name":"YuMe, Inc.","amount":9980.87,"type":"bank","desciption":null},
-{"id":326,"date":"2022-09-02","category":"Toys","expense_name":"Stellus Capital Investment Corporation","amount":3988.37,"type":"cash","desciption":null},
-{"id":327,"date":"2022-09-05","category":"Outdoors","expense_name":"QAD Inc.","amount":4919.49,"type":"cash","desciption":null},
-{"id":328,"date":"2022-03-20","category":"Music","expense_name":"TD Ameritrade Holding Corporation","amount":5414.56,"type":"bank","desciption":null},
-{"id":329,"date":"2022-08-06","category":"Outdoors","expense_name":"IES Holdings, Inc.","amount":5461.79,"type":"cash","desciption":null},
-{"id":330,"date":"2022-06-14","category":"Electronics","expense_name":"Mesoblast Limited","amount":2446.42,"type":"bank","desciption":null},
-{"id":331,"date":"2022-04-09","category":"Kids","expense_name":"Ecolab Inc.","amount":8115.91,"type":"cash","desciption":null},
-{"id":332,"date":"2022-07-20","category":"Health","expense_name":"Entergy Arkansas, Inc.","amount":4906.93,"type":"bank","desciption":null},
-{"id":333,"date":"2022-04-15","category":"Clothing","expense_name":"Evolent Health, Inc","amount":9621.92,"type":"bank","desciption":null},
-{"id":334,"date":"2022-06-13","category":"Music","expense_name":"Approach Resources Inc.","amount":7934.96,"type":"bank","desciption":null},
-{"id":335,"date":"2022-03-02","category":"Garden","expense_name":"Haemonetics Corporation","amount":4930.31,"type":"cash","desciption":null},
-{"id":336,"date":"2022-11-25","category":"Sports","expense_name":"General Finance Corporation","amount":8831.19,"type":"bank","desciption":null},
-{"id":337,"date":"2022-12-20","category":"Movies","expense_name":"MS Structured Asset Corp Saturns GE Cap Corp Series 2002-14","amount":1545.51,"type":"cash","desciption":null},
-{"id":338,"date":"2022-06-14","category":"Games","expense_name":"Marrone Bio Innovations, Inc.","amount":5759.14,"type":"bank","desciption":null},
-{"id":339,"date":"2022-07-11","category":"Movies","expense_name":"Kelly Services, Inc.","amount":5234.86,"type":"cash","desciption":null},
-{"id":340,"date":"2022-11-16","category":"Shoes","expense_name":"Spherix Incorporated","amount":2098.22,"type":"cash","desciption":null},
-{"id":341,"date":"2022-02-23","category":"Clothing","expense_name":"TerraForm Global, Inc.","amount":5517.64,"type":"bank","desciption":null},
-{"id":342,"date":"2022-10-07","category":"Industrial","expense_name":"SMTC Corporation","amount":8377.71,"type":"bank","desciption":null},
-{"id":343,"date":"2022-02-04","category":"Industrial","expense_name":"Corning Incorporated","amount":7077.15,"type":"cash","desciption":null},
-{"id":344,"date":"2022-11-08","category":"Electronics","expense_name":"Boston Properties, Inc.","amount":9237.47,"type":"bank","desciption":"sed magna at"},
-{"id":345,"date":"2022-02-26","category":"Games","expense_name":"Aqua Metals, Inc.","amount":1779.44,"type":"bank","desciption":null},
-{"id":346,"date":"2022-04-05","category":"Games","expense_name":"Protective Life Corporation","amount":8728.04,"type":"bank","desciption":null},
-{"id":347,"date":"2022-02-12","category":"Outdoors","expense_name":"Cathay General Bancorp","amount":4166.02,"type":"cash","desciption":null},
-{"id":348,"date":"2022-02-01","category":"Sports","expense_name":"Xerium Technologies, Inc.","amount":7043.9,"type":"cash","desciption":null},
-{"id":349,"date":"2022-04-10","category":"Clothing","expense_name":"Anthera Pharmaceuticals, Inc.","amount":6107.41,"type":"cash","desciption":null},
-{"id":350,"date":"2022-12-28","category":"Games","expense_name":"IDEX Corporation","amount":7485.6,"type":"cash","desciption":null},
-{"id":351,"date":"2022-09-17","category":"Outdoors","expense_name":"51job, Inc.","amount":5995.32,"type":"cash","desciption":null},
-{"id":352,"date":"2022-05-30","category":"Movies","expense_name":"J. W. Mays, Inc.","amount":2007.76,"type":"bank","desciption":null},
-{"id":353,"date":"2022-03-27","category":"Industrial","expense_name":"Trinity Industries, Inc.","amount":979.47,"type":"bank","desciption":null},
-{"id":354,"date":"2022-02-17","category":"Health","expense_name":"CRISPR Therapeutics AG","amount":852.57,"type":"bank","desciption":null},
-{"id":355,"date":"2022-01-05","category":"Movies","expense_name":"Burcon NutraScience Corp","amount":1612.35,"type":"bank","desciption":null},
-{"id":356,"date":"2022-05-18","category":"Movies","expense_name":"Alphabet Inc.","amount":2486.04,"type":"bank","desciption":"rhoncus sed vestibulum"},
-{"id":357,"date":"2022-06-18","category":"Industrial","expense_name":"Colony Starwood Homes","amount":369.31,"type":"bank","desciption":"penatibus et"},
-{"id":358,"date":"2022-03-28","category":"Home","expense_name":"Easterly Acquisition Corp.","amount":4307.77,"type":"bank","desciption":null},
-{"id":359,"date":"2022-02-08","category":"Movies","expense_name":"Halyard Health, Inc.","amount":6662.01,"type":"bank","desciption":null},
-{"id":360,"date":"2022-06-17","category":"Outdoors","expense_name":"American Homes 4 Rent","amount":8338.33,"type":"cash","desciption":null},
-{"id":361,"date":"2022-01-31","category":"Health","expense_name":"Amarin Corporation plc","amount":3197.8,"type":"bank","desciption":null},
-{"id":362,"date":"2022-07-11","category":"Sports","expense_name":"Alexandria Real Estate Equities, Inc.","amount":6702.15,"type":"bank","desciption":null},
-{"id":363,"date":"2022-09-13","category":"Toys","expense_name":"NII Holdings, Inc.","amount":8386.3,"type":"cash","desciption":null},
-{"id":364,"date":"2022-07-02","category":"Grocery","expense_name":"Customers Bancorp, Inc","amount":814.51,"type":"bank","desciption":"non interdum"},
-{"id":365,"date":"2022-02-09","category":"Garden","expense_name":"First Financial Corporation Indiana","amount":485.01,"type":"bank","desciption":null},
-{"id":366,"date":"2022-03-24","category":"Sports","expense_name":"Nuveen Massachusetts Municipal Income Fund","amount":3620.08,"type":"bank","desciption":null},
-{"id":367,"date":"2022-07-17","category":"Music","expense_name":"Wells Fargo & Company","amount":3375.91,"type":"bank","desciption":null},
-{"id":368,"date":"2022-04-27","category":"Automotive","expense_name":"MFS Intermediate Income Trust","amount":4297.9,"type":"bank","desciption":null},
-{"id":369,"date":"2022-01-30","category":"Jewelry","expense_name":"Caterpillar, Inc.","amount":1649.19,"type":"bank","desciption":null},
-{"id":370,"date":"2022-06-28","category":"Industrial","expense_name":"PerkinElmer, Inc.","amount":8312.76,"type":"bank","desciption":null},
-{"id":371,"date":"2022-11-23","category":"Clothing","expense_name":"Gartner, Inc.","amount":6032.46,"type":"cash","desciption":null},
-{"id":372,"date":"2022-09-28","category":"Toys","expense_name":"United States Cellular Corporation","amount":2132.56,"type":"cash","desciption":"dui luctus"},
-{"id":373,"date":"2022-07-19","category":"Games","expense_name":"Nuveen California Quality Municipal Income Fund","amount":626.55,"type":"cash","desciption":"amet consectetuer"},
-{"id":374,"date":"2022-05-07","category":"Books","expense_name":"The Medicines Company","amount":707.06,"type":"bank","desciption":null},
-{"id":375,"date":"2022-07-28","category":"Books","expense_name":"IBERIABANK Corporation","amount":6209.06,"type":"bank","desciption":null},
-{"id":376,"date":"2022-01-01","category":"Sports","expense_name":"IZEA Inc.","amount":4405.67,"type":"bank","desciption":null},
-{"id":377,"date":"2022-05-02","category":"Baby","expense_name":"NCI Building Systems, Inc.","amount":7035.18,"type":"cash","desciption":null},
-{"id":378,"date":"2022-10-22","category":"Industrial","expense_name":"Nortel Inversora SA","amount":5701.76,"type":"cash","desciption":null},
-{"id":379,"date":"2022-07-25","category":"Shoes","expense_name":"Monmouth Real Estate Investment Corporation","amount":8975.71,"type":"cash","desciption":null},
-{"id":380,"date":"2022-12-23","category":"Outdoors","expense_name":"South Jersey Industries, Inc.","amount":2913.0,"type":"cash","desciption":null},
-{"id":381,"date":"2022-05-17","category":"Books","expense_name":"AirMedia Group Inc","amount":9826.09,"type":"cash","desciption":null},
-{"id":382,"date":"2022-01-19","category":"Outdoors","expense_name":"Koppers Holdings Inc.","amount":2988.03,"type":"bank","desciption":"lacinia eget"},
-{"id":383,"date":"2022-11-08","category":"Automotive","expense_name":"Banco Santander, S.A.","amount":2272.56,"type":"bank","desciption":null},
-{"id":384,"date":"2022-08-26","category":"Jewelry","expense_name":"Gartner, Inc.","amount":2886.63,"type":"bank","desciption":null},
-{"id":385,"date":"2022-07-07","category":"Electronics","expense_name":"Take-Two Interactive Software, Inc.","amount":4612.57,"type":"cash","desciption":null},
-{"id":386,"date":"2022-02-04","category":"Tools","expense_name":"Just Energy Group, Inc.","amount":5280.76,"type":"bank","desciption":null},
-{"id":387,"date":"2022-05-30","category":"Automotive","expense_name":"Superior Energy Services, Inc.","amount":8030.44,"type":"cash","desciption":null},
-{"id":388,"date":"2022-09-21","category":"Outdoors","expense_name":"Principal U.S. Small Cap Index ETF","amount":7585.88,"type":"bank","desciption":null},
-{"id":389,"date":"2022-11-29","category":"Shoes","expense_name":"Pattern Energy Group Inc.","amount":8537.87,"type":"cash","desciption":null},
-{"id":390,"date":"2022-03-17","category":"Books","expense_name":"Monster Digital, Inc.","amount":3414.02,"type":"bank","desciption":null},
-{"id":391,"date":"2022-10-14","category":"Music","expense_name":"Evoke Pharma, Inc.","amount":2579.48,"type":"bank","desciption":null},
-{"id":392,"date":"2022-06-20","category":"Home","expense_name":"TEGNA Inc.","amount":2421.9,"type":"bank","desciption":null},
-{"id":393,"date":"2022-11-06","category":"Baby","expense_name":"Ultra Clean Holdings, Inc.","amount":7334.67,"type":"cash","desciption":null},
-{"id":394,"date":"2022-10-04","category":"Movies","expense_name":"Xerox Corporation","amount":3721.76,"type":"bank","desciption":"proin risus praesent"},
-{"id":395,"date":"2022-02-11","category":"Grocery","expense_name":"eHi Car Services Limited","amount":9380.01,"type":"bank","desciption":null},
-{"id":396,"date":"2022-04-14","category":"Home","expense_name":"China Yuchai International Limited","amount":3385.27,"type":"bank","desciption":null},
-{"id":397,"date":"2022-07-19","category":"Industrial","expense_name":"Thermon Group Holdings, Inc.","amount":9079.34,"type":"cash","desciption":"morbi ut odio"},
-{"id":398,"date":"2022-11-12","category":"Home","expense_name":"JAKKS Pacific, Inc.","amount":7322.67,"type":"cash","desciption":null},
-{"id":399,"date":"2022-12-05","category":"Home","expense_name":"HSBC Holdings plc","amount":2489.06,"type":"bank","desciption":null},
-{"id":400,"date":"2022-10-06","category":"Jewelry","expense_name":"Charles & Colvard Ltd","amount":5904.67,"type":"cash","desciption":null},
-{"id":401,"date":"2022-07-31","category":"Garden","expense_name":"PowerShares S&P SmallCap Materials Portfolio","amount":3801.41,"type":"bank","desciption":"erat curabitur"},
-{"id":402,"date":"2022-02-11","category":"Outdoors","expense_name":"Affiliated Managers Group, Inc.","amount":2389.94,"type":"bank","desciption":null},
-{"id":403,"date":"2022-12-14","category":"Clothing","expense_name":"eGain Corporation","amount":9414.75,"type":"bank","desciption":null},
-{"id":404,"date":"2022-03-04","category":"Industrial","expense_name":"Hill International, Inc.","amount":3670.44,"type":"cash","desciption":null},
-{"id":405,"date":"2022-08-14","category":"Books","expense_name":"On Assignment, Inc.","amount":534.7,"type":"cash","desciption":null},
-{"id":406,"date":"2022-12-03","category":"Garden","expense_name":"NeuroDerm Ltd.","amount":5094.35,"type":"cash","desciption":null},
-{"id":407,"date":"2022-07-23","category":"Movies","expense_name":"Unisys Corporation","amount":6688.04,"type":"cash","desciption":null},
-{"id":408,"date":"2022-05-13","category":"Beauty","expense_name":"Sandy Spring Bancorp, Inc.","amount":7341.33,"type":"cash","desciption":null},
-{"id":409,"date":"2022-04-01","category":"Garden","expense_name":"Baozun Inc.","amount":3872.32,"type":"bank","desciption":null},
-{"id":410,"date":"2022-02-18","category":"Automotive","expense_name":"Select Asset Inc.","amount":2569.47,"type":"bank","desciption":null},
-{"id":411,"date":"2022-02-15","category":"Sports","expense_name":"DDR Corp.","amount":3483.03,"type":"cash","desciption":null},
-{"id":412,"date":"2022-03-18","category":"Industrial","expense_name":"PowerShares KBW Regional Banking Portfolio","amount":8616.67,"type":"bank","desciption":null},
-{"id":413,"date":"2022-05-12","category":"Sports","expense_name":"Triangle Capital Corporation","amount":7226.74,"type":"bank","desciption":null},
-{"id":414,"date":"2022-03-20","category":"Garden","expense_name":"Arch Capital Group Ltd.","amount":8544.45,"type":"bank","desciption":null},
-{"id":415,"date":"2022-12-08","category":"Jewelry","expense_name":"Insignia Systems, Inc.","amount":7530.34,"type":"cash","desciption":null},
-{"id":416,"date":"2022-03-31","category":"Health","expense_name":"Atara Biotherapeutics, Inc.","amount":9486.7,"type":"cash","desciption":null},
-{"id":417,"date":"2022-08-22","category":"Tools","expense_name":"La Jolla Pharmaceutical Company","amount":2401.72,"type":"bank","desciption":null},
-{"id":418,"date":"2022-04-21","category":"Health","expense_name":"NASDAQ TEST STOCK","amount":833.87,"type":"cash","desciption":null},
-{"id":419,"date":"2022-06-25","category":"Toys","expense_name":"AG Mortgage Investment Trust, Inc.","amount":3427.11,"type":"cash","desciption":null},
-{"id":420,"date":"2022-08-25","category":"Grocery","expense_name":"Allscripts Healthcare Solutions, Inc.","amount":6644.99,"type":"bank","desciption":null},
-{"id":421,"date":"2022-01-25","category":"Baby","expense_name":"Scudder Municiple Income Trust","amount":4787.46,"type":"cash","desciption":null},
-{"id":422,"date":"2022-02-06","category":"Grocery","expense_name":"THL Credit, Inc.","amount":235.46,"type":"cash","desciption":null},
-{"id":423,"date":"2022-04-30","category":"Sports","expense_name":"SandRidge Mississippian Trust II","amount":8516.87,"type":"cash","desciption":null},
-{"id":424,"date":"2022-01-04","category":"Shoes","expense_name":"AVX Corporation","amount":9954.94,"type":"bank","desciption":null},
-{"id":425,"date":"2022-10-15","category":"Industrial","expense_name":"Wecast Network, Inc.","amount":7019.17,"type":"bank","desciption":null},
-{"id":426,"date":"2022-08-01","category":"Books","expense_name":"Uniti Group Inc.","amount":761.81,"type":"cash","desciption":null},
-{"id":427,"date":"2022-05-17","category":"Jewelry","expense_name":"IRSA Propiedades Comerciales S.A.","amount":6067.98,"type":"bank","desciption":null},
-{"id":428,"date":"2022-10-27","category":"Tools","expense_name":"PPG Industries, Inc.","amount":3481.11,"type":"bank","desciption":null},
-{"id":429,"date":"2022-04-17","category":"Grocery","expense_name":"R1 RCM Inc.","amount":199.15,"type":"cash","desciption":null},
-{"id":430,"date":"2022-04-10","category":"Clothing","expense_name":"Condor Hospitality Trust, Inc.","amount":2585.47,"type":"bank","desciption":"justo pellentesque"},
-{"id":431,"date":"2022-10-09","category":"Jewelry","expense_name":"DCP Midstream LP","amount":9105.84,"type":"cash","desciption":null},
-{"id":432,"date":"2022-06-08","category":"Jewelry","expense_name":"Innospec Inc.","amount":552.53,"type":"bank","desciption":null},
-{"id":433,"date":"2022-09-17","category":"Garden","expense_name":"Cohu, Inc.","amount":9458.59,"type":"cash","desciption":null},
-{"id":434,"date":"2022-12-05","category":"Jewelry","expense_name":"Cone Midstream Partners LP","amount":1621.88,"type":"cash","desciption":null},
-{"id":435,"date":"2022-07-15","category":"Sports","expense_name":"Flaherty & Crumrine Dynamic Preferred and Income Fund Inc.","amount":3135.75,"type":"cash","desciption":null},
-{"id":436,"date":"2022-09-06","category":"Shoes","expense_name":"TiVo Corporation","amount":3694.51,"type":"bank","desciption":null},
-{"id":437,"date":"2022-04-25","category":"Shoes","expense_name":"Heico Corporation","amount":2754.09,"type":"cash","desciption":null},
-{"id":438,"date":"2022-07-15","category":"Sports","expense_name":"Grupo Aeroportuario Del Pacifico, S.A. de C.V.","amount":5008.05,"type":"cash","desciption":null},
-{"id":439,"date":"2022-10-11","category":"Health","expense_name":"Blackrock MuniYield California Insured Fund, Inc.","amount":7218.67,"type":"bank","desciption":null},
-{"id":440,"date":"2022-09-07","category":"Tools","expense_name":"Amazon.com, Inc.","amount":8172.57,"type":"bank","desciption":null},
-{"id":441,"date":"2022-07-03","category":"Outdoors","expense_name":"Public Storage","amount":1498.04,"type":"bank","desciption":null},
-{"id":442,"date":"2022-09-08","category":"Toys","expense_name":"uniQure N.V.","amount":1526.36,"type":"cash","desciption":"aenean sit"},
-{"id":443,"date":"2022-05-12","category":"Jewelry","expense_name":"Air Transport Services Group, Inc","amount":3104.11,"type":"bank","desciption":null},
-{"id":444,"date":"2022-12-24","category":"Music","expense_name":"United Therapeutics Corporation","amount":4233.64,"type":"cash","desciption":null},
-{"id":445,"date":"2022-08-15","category":"Grocery","expense_name":"Global Net Lease, Inc.","amount":7938.76,"type":"cash","desciption":null},
-{"id":446,"date":"2022-05-31","category":"Kids","expense_name":"The Chefs' Warehouse, Inc.","amount":6109.21,"type":"bank","desciption":null},
-{"id":447,"date":"2022-07-22","category":"Garden","expense_name":"NanoString Technologies, Inc.","amount":2904.07,"type":"cash","desciption":null},
-{"id":448,"date":"2022-07-11","category":"Baby","expense_name":"POSCO","amount":2969.47,"type":"cash","desciption":"faucibus orci luctus"},
-{"id":449,"date":"2022-09-01","category":"Outdoors","expense_name":"eHi Car Services Limited","amount":9229.6,"type":"cash","desciption":null},
-{"id":450,"date":"2022-04-28","category":"Grocery","expense_name":"Black Knight Financial Services, Inc.","amount":5549.9,"type":"bank","desciption":null},
-{"id":451,"date":"2022-06-01","category":"Music","expense_name":"Allstate Corporation (The)","amount":8328.37,"type":"bank","desciption":null},
-{"id":452,"date":"2022-02-09","category":"Clothing","expense_name":"Jensyn Acquistion Corp.","amount":1230.33,"type":"bank","desciption":null},
-{"id":453,"date":"2022-10-18","category":"Grocery","expense_name":"Universal Health Realty Income Trust","amount":2230.67,"type":"cash","desciption":null},
-{"id":454,"date":"2022-01-31","category":"Automotive","expense_name":"CIM Commercial Trust Corporation","amount":3401.78,"type":"bank","desciption":null},
-{"id":455,"date":"2022-06-23","category":"Grocery","expense_name":"Capitol Acquisition Corp. III","amount":4470.31,"type":"cash","desciption":null},
-{"id":456,"date":"2022-02-12","category":"Baby","expense_name":"Texas Pacific Land Trust","amount":2118.78,"type":"cash","desciption":null},
-{"id":457,"date":"2022-05-09","category":"Garden","expense_name":"Century Bancorp, Inc.","amount":7619.78,"type":"bank","desciption":null},
-{"id":458,"date":"2022-05-30","category":"Home","expense_name":"Seaspan Corporation","amount":1926.05,"type":"cash","desciption":null},
-{"id":459,"date":"2022-05-09","category":"Computers","expense_name":"Energous Corporation","amount":4592.78,"type":"cash","desciption":null},
-{"id":460,"date":"2022-04-25","category":"Movies","expense_name":"Madison Covered Call & Equity Strategy Fund","amount":5836.79,"type":"bank","desciption":null},
-{"id":461,"date":"2022-06-30","category":"Baby","expense_name":"Rennova Health, Inc.","amount":3804.54,"type":"bank","desciption":null},
-{"id":462,"date":"2022-12-24","category":"Beauty","expense_name":"Nuveen AMT-Free Municipal Credit Income Fund","amount":7686.16,"type":"bank","desciption":null},
-{"id":463,"date":"2022-02-25","category":"Movies","expense_name":"Wright Medical Group N.V.","amount":4021.61,"type":"bank","desciption":null},
-{"id":464,"date":"2022-12-03","category":"Kids","expense_name":"Matlin & Partners Acquisition Corporation","amount":55.98,"type":"cash","desciption":null},
-{"id":465,"date":"2022-04-12","category":"Toys","expense_name":"Resonant Inc.","amount":5903.96,"type":"bank","desciption":null},
-{"id":466,"date":"2022-04-20","category":"Electronics","expense_name":"Marcus & Millichap, Inc.","amount":3068.84,"type":"bank","desciption":null},
-{"id":467,"date":"2022-01-19","category":"Electronics","expense_name":"Capital One Financial Corporation","amount":5479.51,"type":"cash","desciption":null},
-{"id":468,"date":"2022-10-25","category":"Home","expense_name":"Solar Capital Ltd.","amount":1888.26,"type":"bank","desciption":null},
-{"id":469,"date":"2022-07-13","category":"Games","expense_name":"Alexander & Baldwin Holdings, Inc.","amount":378.75,"type":"cash","desciption":null},
-{"id":470,"date":"2022-12-03","category":"Beauty","expense_name":"National Steel Company","amount":1264.19,"type":"cash","desciption":null},
-{"id":471,"date":"2022-02-09","category":"Toys","expense_name":"Monarch Casino & Resort, Inc.","amount":7902.6,"type":"cash","desciption":null},
-{"id":472,"date":"2022-07-15","category":"Grocery","expense_name":"Davis Select U.S. Equity ETF","amount":199.68,"type":"cash","desciption":null},
-{"id":473,"date":"2022-09-08","category":"Games","expense_name":"Mid-America Apartment Communities, Inc.","amount":6800.49,"type":"bank","desciption":"eu interdum"},
-{"id":474,"date":"2022-09-08","category":"Clothing","expense_name":"Advantage Oil & Gas Ltd","amount":9795.17,"type":"bank","desciption":null},
-{"id":475,"date":"2022-08-08","category":"Electronics","expense_name":"UMH Properties, Inc.","amount":1561.69,"type":"cash","desciption":null},
-{"id":476,"date":"2022-06-03","category":"Baby","expense_name":"Toro Company (The)","amount":6264.33,"type":"cash","desciption":null},
-{"id":477,"date":"2022-05-09","category":"Garden","expense_name":"Hudson Pacific Properties, Inc.","amount":9829.84,"type":"bank","desciption":null},
-{"id":478,"date":"2022-07-15","category":"Outdoors","expense_name":"Tempur Sealy International, Inc.","amount":5890.2,"type":"cash","desciption":"dui maecenas tristique"},
-{"id":479,"date":"2022-02-26","category":"Garden","expense_name":"Plexus Corp.","amount":6821.61,"type":"cash","desciption":null},
-{"id":480,"date":"2022-01-01","category":"Beauty","expense_name":"AVEO Pharmaceuticals, Inc.","amount":2208.77,"type":"bank","desciption":null},
-{"id":481,"date":"2022-04-03","category":"Sports","expense_name":"John Wiley & Sons, Inc.","amount":6250.53,"type":"bank","desciption":null},
-{"id":482,"date":"2022-03-19","category":"Sports","expense_name":"Southern Company (The)","amount":6356.69,"type":"bank","desciption":null},
-{"id":483,"date":"2022-04-20","category":"Health","expense_name":"ProPetro Holding Corp.","amount":5118.8,"type":"cash","desciption":null},
-{"id":484,"date":"2022-04-29","category":"Electronics","expense_name":"First Trust Indxx Global Natural Resources Income ETF","amount":648.16,"type":"cash","desciption":null},
-{"id":485,"date":"2022-04-09","category":"Health","expense_name":"Assembly Biosciences, Inc.","amount":4123.8,"type":"cash","desciption":null},
-{"id":486,"date":"2022-10-18","category":"Health","expense_name":"DexCom, Inc.","amount":2558.06,"type":"cash","desciption":null},
-{"id":487,"date":"2022-01-10","category":"Books","expense_name":"I.D. Systems, Inc.","amount":7068.91,"type":"cash","desciption":null},
-{"id":488,"date":"2022-11-01","category":"Beauty","expense_name":"Cyclacel Pharmaceuticals, Inc.","amount":5251.02,"type":"cash","desciption":null},
-{"id":489,"date":"2022-07-23","category":"Jewelry","expense_name":"Franklin Financial Network, Inc.","amount":4025.25,"type":"bank","desciption":null},
-{"id":490,"date":"2022-05-23","category":"Music","expense_name":"Spherix Incorporated","amount":2771.85,"type":"cash","desciption":"amet turpis"},
-{"id":491,"date":"2022-01-21","category":"Tools","expense_name":"VictoryShares US Small Cap Volatility Wtd ETF","amount":4974.94,"type":"bank","desciption":null},
-{"id":492,"date":"2022-07-16","category":"Music","expense_name":"Continental Resources, Inc.","amount":3696.19,"type":"bank","desciption":null},
-{"id":493,"date":"2022-07-26","category":"Baby","expense_name":"Kindred Healthcare, Inc.","amount":1199.41,"type":"bank","desciption":null},
-{"id":494,"date":"2022-04-06","category":"Automotive","expense_name":"Glaukos Corporation","amount":5289.09,"type":"bank","desciption":null},
-{"id":495,"date":"2022-07-27","category":"Grocery","expense_name":"RTI Surgical, Inc.","amount":1252.04,"type":"cash","desciption":null},
-{"id":496,"date":"2022-07-09","category":"Grocery","expense_name":"Banco Bradesco Sa","amount":917.05,"type":"bank","desciption":null},
-{"id":497,"date":"2022-07-28","category":"Clothing","expense_name":"Angie's List, Inc.","amount":9785.56,"type":"bank","desciption":null},
-{"id":498,"date":"2022-10-05","category":"Movies","expense_name":"Dean Foods Company","amount":7845.12,"type":"bank","desciption":null},
-{"id":499,"date":"2022-01-24","category":"Shoes","expense_name":"Blackrock MuniHoldings Fund, Inc.","amount":3002.63,"type":"bank","desciption":null},
-{"id":500,"date":"2022-07-08","category":"Electronics","expense_name":"Aspen Technology, Inc.","amount":3847.46,"type":"cash","desciption":null}]
+[{
+        "id": 1,
+        "date": "2022-08-11",
+        "category": "Home",
+        "expense_name": "Signet Jewelers Limited",
+        "amount": 1335.71,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 2,
+        "date": "2022-05-03",
+        "category": "Automotive",
+        "expense_name": "Restaurant Brands International Inc.",
+        "amount": 2377.68,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 3,
+        "date": "2022-01-01",
+        "category": "Music",
+        "expense_name": "ANSYS, Inc.",
+        "amount": 6479.42,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 4,
+        "date": "2022-01-25",
+        "category": "Kids",
+        "expense_name": "Peregrine Pharmaceuticals Inc.",
+        "amount": 7560.66,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 5,
+        "date": "2022-10-12",
+        "category": "Home",
+        "expense_name": "Bio-Path Holdings, Inc.",
+        "amount": 2215.25,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 6,
+        "date": "2022-05-12",
+        "category": "Clothing",
+        "expense_name": "Barington/Hilco Acquisition Corp.",
+        "amount": 5965.81,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 7,
+        "date": "2022-08-03",
+        "category": "Beauty",
+        "expense_name": "U.S. Bancorp",
+        "amount": 4490.66,
+        "type": "bank",
+        "desciption": "vehicula condimentum curabitur"
+    },
+    {
+        "id": 8,
+        "date": "2022-03-05",
+        "category": "Sports",
+        "expense_name": "Nuveen Floating Rate Income Opportuntiy Fund",
+        "amount": 4223.45,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 9,
+        "date": "2022-12-07",
+        "category": "Books",
+        "expense_name": "CHS Inc",
+        "amount": 3338.46,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 10,
+        "date": "2022-08-20",
+        "category": "Industrial",
+        "expense_name": "Diana Shipping inc.",
+        "amount": 9377.22,
+        "type": "bank",
+        "desciption": "nunc commodo placerat"
+    },
+    {
+        "id": 11,
+        "date": "2022-10-27",
+        "category": "Sports",
+        "expense_name": "Just Energy Group, Inc.",
+        "amount": 3993.14,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 12,
+        "date": "2022-03-24",
+        "category": "Books",
+        "expense_name": "Galena Biopharma, Inc.",
+        "amount": 1091.24,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 13,
+        "date": "2022-07-21",
+        "category": "Beauty",
+        "expense_name": "PartnerRe Ltd.",
+        "amount": 3818.97,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 14,
+        "date": "2022-08-18",
+        "category": "Clothing",
+        "expense_name": "Newmont Mining Corporation",
+        "amount": 7016.12,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 15,
+        "date": "2022-06-04",
+        "category": "Clothing",
+        "expense_name": "Revlon, Inc.",
+        "amount": 3532.69,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 16,
+        "date": "2022-04-02",
+        "category": "Movies",
+        "expense_name": "Fuling Global Inc.",
+        "amount": 3558.52,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 17,
+        "date": "2022-04-20",
+        "category": "Computers",
+        "expense_name": "icad inc.",
+        "amount": 1728.4,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 18,
+        "date": "2022-06-22",
+        "category": "Garden",
+        "expense_name": "Dynex Capital, Inc.",
+        "amount": 7641.51,
+        "type": "cash",
+        "desciption": "integer ac neque"
+    },
+    {
+        "id": 19,
+        "date": "2022-02-01",
+        "category": "Games",
+        "expense_name": "BroadSoft, Inc.",
+        "amount": 9269.09,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 20,
+        "date": "2022-09-09",
+        "category": "Movies",
+        "expense_name": "Warrior Met Coal, Inc.",
+        "amount": 6425.58,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 21,
+        "date": "2022-12-05",
+        "category": "Movies",
+        "expense_name": "Kemet Corporation",
+        "amount": 361.49,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 22,
+        "date": "2022-07-29",
+        "category": "Outdoors",
+        "expense_name": "DTE Energy Company",
+        "amount": 9932.55,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 23,
+        "date": "2022-10-26",
+        "category": "Books",
+        "expense_name": "Platform Specialty Products Corporation",
+        "amount": 7994.11,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 24,
+        "date": "2022-02-19",
+        "category": "Jewelry",
+        "expense_name": "Calamos Convertible and High Income Fund",
+        "amount": 1546.22,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 25,
+        "date": "2022-06-27",
+        "category": "Grocery",
+        "expense_name": "The Dixie Group, Inc.",
+        "amount": 2629.23,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 26,
+        "date": "2022-01-25",
+        "category": "Baby",
+        "expense_name": "Nuveen New York Municipal Value Fund 2",
+        "amount": 1908.06,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 27,
+        "date": "2022-01-30",
+        "category": "Tools",
+        "expense_name": "EnteroMedics Inc.",
+        "amount": 1067.3,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 28,
+        "date": "2022-04-01",
+        "category": "Home",
+        "expense_name": "Argan, Inc.",
+        "amount": 6492.77,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 29,
+        "date": "2022-08-17",
+        "category": "Shoes",
+        "expense_name": "Cowen Inc.",
+        "amount": 5862.35,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 30,
+        "date": "2022-03-02",
+        "category": "Books",
+        "expense_name": "Qumu Corporation",
+        "amount": 313.59,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 31,
+        "date": "2022-07-25",
+        "category": "Baby",
+        "expense_name": "Covanta Holding Corporation",
+        "amount": 1183.54,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 32,
+        "date": "2022-10-16",
+        "category": "Electronics",
+        "expense_name": "Ares Commercial Real Estate Corporation",
+        "amount": 2622.67,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 33,
+        "date": "2022-08-22",
+        "category": "Movies",
+        "expense_name": "CONSOL Energy Inc.",
+        "amount": 3480.57,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 34,
+        "date": "2022-06-15",
+        "category": "Shoes",
+        "expense_name": "Highwoods Properties, Inc.",
+        "amount": 5340.79,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 35,
+        "date": "2022-07-31",
+        "category": "Grocery",
+        "expense_name": "BSQUARE Corporation",
+        "amount": 8371.83,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 36,
+        "date": "2022-06-28",
+        "category": "Shoes",
+        "expense_name": "Morgan Stanley Emerging Markets Debt Fund, Inc.",
+        "amount": 9115.96,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 37,
+        "date": "2022-01-05",
+        "category": "Baby",
+        "expense_name": "Rennova Health, Inc.",
+        "amount": 776.68,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 38,
+        "date": "2022-05-12",
+        "category": "Automotive",
+        "expense_name": "PrivateBancorp, Inc.",
+        "amount": 2103.39,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 39,
+        "date": "2022-07-17",
+        "category": "Kids",
+        "expense_name": "Adverum Biotechnologies, Inc.",
+        "amount": 8560.27,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 40,
+        "date": "2022-07-27",
+        "category": "Grocery",
+        "expense_name": "J. W. Mays, Inc.",
+        "amount": 885.83,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 41,
+        "date": "2022-08-24",
+        "category": "Books",
+        "expense_name": "BlackRock Municipal Income Trust",
+        "amount": 3390.19,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 42,
+        "date": "2022-02-12",
+        "category": "Automotive",
+        "expense_name": "Myers Industries, Inc.",
+        "amount": 720.1,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 43,
+        "date": "2022-05-07",
+        "category": "Outdoors",
+        "expense_name": "Gladstone Investment Corporation",
+        "amount": 9577.41,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 44,
+        "date": "2022-06-19",
+        "category": "Industrial",
+        "expense_name": "Dorchester Minerals, L.P.",
+        "amount": 4024.41,
+        "type": "bank",
+        "desciption": "vulputate elementum"
+    },
+    {
+        "id": 45,
+        "date": "2022-12-13",
+        "category": "Automotive",
+        "expense_name": "The Kraft Heinz Company",
+        "amount": 8705.0,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 46,
+        "date": "2022-07-20",
+        "category": "Electronics",
+        "expense_name": "Trupanion, Inc.",
+        "amount": 6285.66,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 47,
+        "date": "2022-10-11",
+        "category": "Music",
+        "expense_name": "Cabela's Inc",
+        "amount": 3045.01,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 48,
+        "date": "2022-10-23",
+        "category": "Electronics",
+        "expense_name": "Virtus Investment Partners, Inc.",
+        "amount": 7074.69,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 49,
+        "date": "2022-12-21",
+        "category": "Outdoors",
+        "expense_name": "First Trust SSI Strategic Convertible Securities ETF",
+        "amount": 7350.62,
+        "type": "bank",
+        "desciption": "vestibulum ante ipsum"
+    },
+    {
+        "id": 50,
+        "date": "2022-10-24",
+        "category": "Games",
+        "expense_name": "Tortoise Energy Infrastructure Corporation",
+        "amount": 9385.68,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 51,
+        "date": "2022-03-04",
+        "category": "Kids",
+        "expense_name": "Jazz Pharmaceuticals plc",
+        "amount": 1759.21,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 52,
+        "date": "2022-01-18",
+        "category": "Beauty",
+        "expense_name": "BLACKROCK INTERNATIONAL, LTD.",
+        "amount": 3255.3,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 53,
+        "date": "2022-05-27",
+        "category": "Games",
+        "expense_name": "ASML Holding N.V.",
+        "amount": 3479.3,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 54,
+        "date": "2022-12-24",
+        "category": "Movies",
+        "expense_name": "Century Aluminum Company",
+        "amount": 6529.04,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 55,
+        "date": "2022-02-06",
+        "category": "Baby",
+        "expense_name": "iShares GNMA Bond ETF",
+        "amount": 5623.2,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 56,
+        "date": "2022-06-30",
+        "category": "Health",
+        "expense_name": "BB&T Corporation",
+        "amount": 6694.07,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 57,
+        "date": "2022-01-04",
+        "category": "Tools",
+        "expense_name": "Entergy Louisiana, Inc.",
+        "amount": 856.68,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 58,
+        "date": "2022-08-09",
+        "category": "Movies",
+        "expense_name": "QTS Realty Trust, Inc.",
+        "amount": 5309.84,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 59,
+        "date": "2022-08-22",
+        "category": "Electronics",
+        "expense_name": "General Finance Corporation",
+        "amount": 7995.39,
+        "type": "bank",
+        "desciption": "morbi porttitor"
+    },
+    {
+        "id": 60,
+        "date": "2022-04-20",
+        "category": "Jewelry",
+        "expense_name": "CM Finance Inc",
+        "amount": 4841.96,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 61,
+        "date": "2022-08-15",
+        "category": "Toys",
+        "expense_name": "SunCoke Energy, Inc.",
+        "amount": 3855.22,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 62,
+        "date": "2022-02-22",
+        "category": "Outdoors",
+        "expense_name": "Staples, Inc.",
+        "amount": 5580.11,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 63,
+        "date": "2022-02-07",
+        "category": "Toys",
+        "expense_name": "Delta Natural Gas Company, Inc.",
+        "amount": 8756.67,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 64,
+        "date": "2022-02-04",
+        "category": "Jewelry",
+        "expense_name": "Digital Realty Trust, Inc.",
+        "amount": 7749.97,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 65,
+        "date": "2022-02-05",
+        "category": "Sports",
+        "expense_name": "HC2 Holdings, Inc.",
+        "amount": 6991.71,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 66,
+        "date": "2022-02-21",
+        "category": "Garden",
+        "expense_name": "Cancer Genetics, Inc.",
+        "amount": 1381.93,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 67,
+        "date": "2022-07-12",
+        "category": "Games",
+        "expense_name": "Southern California Edison Company",
+        "amount": 9065.43,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 68,
+        "date": "2022-02-24",
+        "category": "Music",
+        "expense_name": "PIMCO Municipal Income Fund III",
+        "amount": 9807.32,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 69,
+        "date": "2022-08-13",
+        "category": "Music",
+        "expense_name": "AG Mortgage Investment Trust, Inc.",
+        "amount": 381.46,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 70,
+        "date": "2022-08-07",
+        "category": "Clothing",
+        "expense_name": "Industrial Services of America, Inc.",
+        "amount": 7564.55,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 71,
+        "date": "2022-07-11",
+        "category": "Jewelry",
+        "expense_name": "La Jolla Pharmaceutical Company",
+        "amount": 2671.83,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 72,
+        "date": "2022-04-23",
+        "category": "Industrial",
+        "expense_name": "MFS Government Markets Income Trust",
+        "amount": 8934.98,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 73,
+        "date": "2022-08-29",
+        "category": "Music",
+        "expense_name": "Eaton Vance Municipal Income Trust",
+        "amount": 4718.19,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 74,
+        "date": "2022-09-16",
+        "category": "Computers",
+        "expense_name": "Lexicon Pharmaceuticals, Inc.",
+        "amount": 8578.63,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 75,
+        "date": "2022-04-09",
+        "category": "Shoes",
+        "expense_name": "World Acceptance Corporation",
+        "amount": 9857.38,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 76,
+        "date": "2022-01-19",
+        "category": "Outdoors",
+        "expense_name": "KalVista Pharmaceuticals, Inc.",
+        "amount": 992.79,
+        "type": "cash",
+        "desciption": "nascetur ridiculus mus"
+    },
+    {
+        "id": 77,
+        "date": "2022-04-11",
+        "category": "Shoes",
+        "expense_name": "Blackrock Corporate High Yield Fund, Inc.",
+        "amount": 7872.53,
+        "type": "bank",
+        "desciption": "volutpat erat"
+    },
+    {
+        "id": 78,
+        "date": "2022-05-15",
+        "category": "Shoes",
+        "expense_name": "Onvia, Inc.",
+        "amount": 1731.87,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 79,
+        "date": "2022-03-28",
+        "category": "Tools",
+        "expense_name": "AquaVenture Holdings Limited",
+        "amount": 526.21,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 80,
+        "date": "2022-09-11",
+        "category": "Computers",
+        "expense_name": "X-Links Silver Shares Covered Call ETN",
+        "amount": 7266.67,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 81,
+        "date": "2022-10-29",
+        "category": "Beauty",
+        "expense_name": "First Citizens BancShares, Inc.",
+        "amount": 6272.94,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 82,
+        "date": "2022-06-25",
+        "category": "Kids",
+        "expense_name": "Canadian Natural Resources Limited",
+        "amount": 2817.46,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 83,
+        "date": "2022-03-01",
+        "category": "Toys",
+        "expense_name": "Blackrock Florida Municipal 2020 Term Trust",
+        "amount": 3086.98,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 84,
+        "date": "2022-08-30",
+        "category": "Beauty",
+        "expense_name": "Belmond Ltd.",
+        "amount": 9779.73,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 85,
+        "date": "2022-05-28",
+        "category": "Clothing",
+        "expense_name": "Westinghouse Air Brake Technologies Corporation",
+        "amount": 9249.43,
+        "type": "bank",
+        "desciption": "lacus purus aliquet"
+    },
+    {
+        "id": 86,
+        "date": "2022-10-30",
+        "category": "Shoes",
+        "expense_name": "Horizons DAX Germany ETF",
+        "amount": 1038.37,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 87,
+        "date": "2022-08-29",
+        "category": "Music",
+        "expense_name": "The Dixie Group, Inc.",
+        "amount": 7786.65,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 88,
+        "date": "2022-11-13",
+        "category": "Movies",
+        "expense_name": "Western Asset Emerging Markets Debt Fund Inc",
+        "amount": 8153.65,
+        "type": "bank",
+        "desciption": "nascetur ridiculus mus"
+    },
+    {
+        "id": 89,
+        "date": "2022-02-10",
+        "category": "Beauty",
+        "expense_name": "Allison Transmission Holdings, Inc.",
+        "amount": 8017.17,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 90,
+        "date": "2022-11-24",
+        "category": "Toys",
+        "expense_name": "Blackrock MuniYield California Insured Fund, Inc.",
+        "amount": 6882.97,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 91,
+        "date": "2022-10-03",
+        "category": "Clothing",
+        "expense_name": "BRF S.A.",
+        "amount": 1922.38,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 92,
+        "date": "2022-01-24",
+        "category": "Toys",
+        "expense_name": "VictoryShares US EQ Income Enhanced Volatility Wtd ETF",
+        "amount": 1014.75,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 93,
+        "date": "2022-08-11",
+        "category": "Home",
+        "expense_name": "Wal-Mart Stores, Inc.",
+        "amount": 3380.71,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 94,
+        "date": "2022-08-06",
+        "category": "Computers",
+        "expense_name": "Knoll, Inc.",
+        "amount": 6610.5,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 95,
+        "date": "2022-10-18",
+        "category": "Electronics",
+        "expense_name": "Vanguard Total International Stock ETF",
+        "amount": 5728.77,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 96,
+        "date": "2022-07-23",
+        "category": "Toys",
+        "expense_name": "Acacia Research Corporation",
+        "amount": 3587.42,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 97,
+        "date": "2022-10-17",
+        "category": "Tools",
+        "expense_name": "KB Home",
+        "amount": 5613.89,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 98,
+        "date": "2022-12-07",
+        "category": "Beauty",
+        "expense_name": "Cisco Systems, Inc.",
+        "amount": 9114.96,
+        "type": "bank",
+        "desciption": "justo morbi"
+    },
+    {
+        "id": 99,
+        "date": "2022-01-29",
+        "category": "Movies",
+        "expense_name": "Lumber Liquidators Holdings, Inc",
+        "amount": 3875.59,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 100,
+        "date": "2022-01-26",
+        "category": "Computers",
+        "expense_name": "Autobytel Inc.",
+        "amount": 7507.29,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 101,
+        "date": "2022-01-11",
+        "category": "Garden",
+        "expense_name": "Virtu Financial, Inc.",
+        "amount": 9989.9,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 102,
+        "date": "2022-05-31",
+        "category": "Music",
+        "expense_name": "Transocean Ltd.",
+        "amount": 969.44,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 103,
+        "date": "2022-05-31",
+        "category": "Movies",
+        "expense_name": "Investors Real Estate Trust",
+        "amount": 8192.97,
+        "type": "cash",
+        "desciption": "porttitor lacus at"
+    },
+    {
+        "id": 104,
+        "date": "2022-02-03",
+        "category": "Baby",
+        "expense_name": "Domtar Corporation",
+        "amount": 5031.85,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 105,
+        "date": "2022-08-17",
+        "category": "Shoes",
+        "expense_name": "Pendrell Corporation",
+        "amount": 2598.82,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 106,
+        "date": "2022-03-18",
+        "category": "Computers",
+        "expense_name": "Atento S.A.",
+        "amount": 2559.85,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 107,
+        "date": "2022-05-24",
+        "category": "Books",
+        "expense_name": "Corcept Therapeutics Incorporated",
+        "amount": 3572.42,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 108,
+        "date": "2022-06-25",
+        "category": "Health",
+        "expense_name": "Anheuser-Busch Inbev SA",
+        "amount": 9684.03,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 109,
+        "date": "2022-05-20",
+        "category": "Beauty",
+        "expense_name": "Stanley Black & Decker, Inc.",
+        "amount": 9785.88,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 110,
+        "date": "2022-06-26",
+        "category": "Grocery",
+        "expense_name": "Patterson Companies, Inc.",
+        "amount": 2799.25,
+        "type": "cash",
+        "desciption": "sit amet erat"
+    },
+    {
+        "id": 111,
+        "date": "2022-09-20",
+        "category": "Tools",
+        "expense_name": "Aberdeen Greater China Fund, Inc.",
+        "amount": 6387.42,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 112,
+        "date": "2022-03-04",
+        "category": "Kids",
+        "expense_name": "Aeglea BioTherapeutics, Inc.",
+        "amount": 3288.02,
+        "type": "cash",
+        "desciption": "ut ultrices"
+    },
+    {
+        "id": 113,
+        "date": "2022-12-10",
+        "category": "Computers",
+        "expense_name": "Nuance Communications, Inc.",
+        "amount": 4747.09,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 114,
+        "date": "2022-04-12",
+        "category": "Sports",
+        "expense_name": "Chart Industries, Inc.",
+        "amount": 3151.77,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 115,
+        "date": "2022-12-07",
+        "category": "Music",
+        "expense_name": "Hingham Institution for Savings",
+        "amount": 2505.94,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 116,
+        "date": "2022-10-09",
+        "category": "Shoes",
+        "expense_name": "Vanguard Global ex-U.S. Real Estate ETF",
+        "amount": 1496.49,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 117,
+        "date": "2022-11-26",
+        "category": "Grocery",
+        "expense_name": "Mitcham Industries, Inc.",
+        "amount": 5985.42,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 118,
+        "date": "2022-05-28",
+        "category": "Automotive",
+        "expense_name": "Nuveen Floating Rate Income Opportuntiy Fund",
+        "amount": 4715.92,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 119,
+        "date": "2022-11-18",
+        "category": "Shoes",
+        "expense_name": "China Petroleum & Chemical Corporation",
+        "amount": 7150.84,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 120,
+        "date": "2022-04-22",
+        "category": "Games",
+        "expense_name": "Trinity Industries, Inc.",
+        "amount": 125.74,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 121,
+        "date": "2022-01-02",
+        "category": "Grocery",
+        "expense_name": "Aegion Corp",
+        "amount": 1895.58,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 122,
+        "date": "2022-07-04",
+        "category": "Shoes",
+        "expense_name": "Calumet Specialty Products Partners, L.P.",
+        "amount": 3419.49,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 123,
+        "date": "2022-02-09",
+        "category": "Outdoors",
+        "expense_name": "iPath US Treasury 10-year Bull ETN",
+        "amount": 2914.23,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 124,
+        "date": "2022-02-05",
+        "category": "Music",
+        "expense_name": "CNA Financial Corporation",
+        "amount": 9134.13,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 125,
+        "date": "2022-06-13",
+        "category": "Shoes",
+        "expense_name": "DNB Financial Corp",
+        "amount": 2515.95,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 126,
+        "date": "2022-07-26",
+        "category": "Home",
+        "expense_name": "CalAtlantic Group, Inc.",
+        "amount": 2959.07,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 127,
+        "date": "2022-06-28",
+        "category": "Automotive",
+        "expense_name": "FirstEnergy Corporation",
+        "amount": 7152.02,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 128,
+        "date": "2022-01-14",
+        "category": "Tools",
+        "expense_name": "Superconductor Technologies Inc.",
+        "amount": 8726.41,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 129,
+        "date": "2022-06-30",
+        "category": "Shoes",
+        "expense_name": "Ionis Pharmaceuticals, Inc.",
+        "amount": 8469.93,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 130,
+        "date": "2022-04-23",
+        "category": "Toys",
+        "expense_name": "Virtus Global Multi-Sector Income Fund",
+        "amount": 8051.52,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 131,
+        "date": "2022-07-28",
+        "category": "Home",
+        "expense_name": "Kadant Inc",
+        "amount": 2022.99,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 132,
+        "date": "2022-05-21",
+        "category": "Jewelry",
+        "expense_name": "Advanced Energy Industries, Inc.",
+        "amount": 7547.64,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 133,
+        "date": "2022-03-31",
+        "category": "Automotive",
+        "expense_name": "Tyson Foods, Inc.",
+        "amount": 5435.08,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 134,
+        "date": "2022-03-13",
+        "category": "Shoes",
+        "expense_name": "PC-Tel, Inc.",
+        "amount": 6602.13,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 135,
+        "date": "2022-04-24",
+        "category": "Kids",
+        "expense_name": "Kayne Anderson Acquisition Corp.",
+        "amount": 931.5,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 136,
+        "date": "2022-05-18",
+        "category": "Games",
+        "expense_name": "Lindblad Expeditions Holdings Inc. ",
+        "amount": 6096.22,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 137,
+        "date": "2022-09-17",
+        "category": "Games",
+        "expense_name": "DASAN Zhone Solutions, Inc.",
+        "amount": 2129.36,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 138,
+        "date": "2022-05-03",
+        "category": "Outdoors",
+        "expense_name": "NuVasive, Inc.",
+        "amount": 3074.58,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 139,
+        "date": "2022-05-14",
+        "category": "Automotive",
+        "expense_name": "Semgroup Corporation",
+        "amount": 5859.16,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 140,
+        "date": "2022-05-10",
+        "category": "Computers",
+        "expense_name": "Catabasis Pharmaceuticals, Inc.",
+        "amount": 6197.31,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 141,
+        "date": "2022-06-30",
+        "category": "Toys",
+        "expense_name": "Orthofix International N.V.",
+        "amount": 9206.52,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 142,
+        "date": "2022-06-18",
+        "category": "Baby",
+        "expense_name": "Regulus Therapeutics Inc.",
+        "amount": 7569.94,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 143,
+        "date": "2022-03-21",
+        "category": "Garden",
+        "expense_name": "Ashford Hospitality Trust Inc",
+        "amount": 2963.2,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 144,
+        "date": "2022-05-02",
+        "category": "Grocery",
+        "expense_name": "Virtus Total Return Fund Inc.",
+        "amount": 5558.78,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 145,
+        "date": "2022-08-22",
+        "category": "Electronics",
+        "expense_name": "LendingTree, Inc.",
+        "amount": 9986.47,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 146,
+        "date": "2022-05-24",
+        "category": "Books",
+        "expense_name": "Costco Wholesale Corporation",
+        "amount": 4683.73,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 147,
+        "date": "2022-05-17",
+        "category": "Music",
+        "expense_name": "Jaguar Animal Health, Inc.",
+        "amount": 4360.39,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 148,
+        "date": "2022-12-12",
+        "category": "Grocery",
+        "expense_name": "VictoryShares Dividend Accelerator ETF",
+        "amount": 7545.86,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 149,
+        "date": "2022-11-28",
+        "category": "Electronics",
+        "expense_name": "EnPro Industries",
+        "amount": 4969.34,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 150,
+        "date": "2022-04-21",
+        "category": "Beauty",
+        "expense_name": "Global Partners LP",
+        "amount": 2821.61,
+        "type": "bank",
+        "desciption": "posuere metus vitae"
+    },
+    {
+        "id": 151,
+        "date": "2022-12-25",
+        "category": "Music",
+        "expense_name": "Neff Corporation",
+        "amount": 6042.66,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 152,
+        "date": "2022-03-07",
+        "category": "Kids",
+        "expense_name": "ClubCorp Holdings, Inc.",
+        "amount": 7724.13,
+        "type": "bank",
+        "desciption": "at turpis donec"
+    },
+    {
+        "id": 153,
+        "date": "2022-07-13",
+        "category": "Grocery",
+        "expense_name": "L Brands, Inc.",
+        "amount": 4064.6,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 154,
+        "date": "2022-11-10",
+        "category": "Sports",
+        "expense_name": "Bio-Rad Laboratories, Inc.",
+        "amount": 8610.96,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 155,
+        "date": "2022-04-04",
+        "category": "Books",
+        "expense_name": "2U, Inc.",
+        "amount": 1724.72,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 156,
+        "date": "2022-04-02",
+        "category": "Music",
+        "expense_name": "Stellar Biotechnologies, Inc.",
+        "amount": 5198.82,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 157,
+        "date": "2022-03-26",
+        "category": "Movies",
+        "expense_name": "Hersha Hospitality Trust",
+        "amount": 1097.28,
+        "type": "cash",
+        "desciption": "nulla nunc"
+    },
+    {
+        "id": 158,
+        "date": "2022-07-11",
+        "category": "Grocery",
+        "expense_name": "iStar Financial Inc.",
+        "amount": 2482.31,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 159,
+        "date": "2022-08-14",
+        "category": "Industrial",
+        "expense_name": "Electrum Special Acquisition Corporation",
+        "amount": 3466.61,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 160,
+        "date": "2022-11-06",
+        "category": "Kids",
+        "expense_name": "Resource Capital Corp.",
+        "amount": 2720.85,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 161,
+        "date": "2022-11-13",
+        "category": "Kids",
+        "expense_name": "Georgia Power Company",
+        "amount": 9595.9,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 162,
+        "date": "2022-12-16",
+        "category": "Grocery",
+        "expense_name": "Ardelyx, Inc.",
+        "amount": 728.44,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 163,
+        "date": "2022-02-02",
+        "category": "Industrial",
+        "expense_name": "Grupo Aeroportuario del Centro Norte S.A.B. de C.V.",
+        "amount": 2350.12,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 164,
+        "date": "2022-06-14",
+        "category": "Movies",
+        "expense_name": "Clovis Oncology, Inc.",
+        "amount": 5845.75,
+        "type": "cash",
+        "desciption": "sit amet"
+    },
+    {
+        "id": 165,
+        "date": "2022-05-07",
+        "category": "Beauty",
+        "expense_name": "Dril-Quip, Inc.",
+        "amount": 1387.41,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 166,
+        "date": "2022-11-21",
+        "category": "Music",
+        "expense_name": "Heat Biologics, Inc.",
+        "amount": 6356.38,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 167,
+        "date": "2022-02-17",
+        "category": "Sports",
+        "expense_name": "Customers Bancorp, Inc",
+        "amount": 8386.19,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 168,
+        "date": "2022-07-27",
+        "category": "Music",
+        "expense_name": "Trupanion, Inc.",
+        "amount": 7100.85,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 169,
+        "date": "2022-03-14",
+        "category": "Music",
+        "expense_name": "Aeglea BioTherapeutics, Inc.",
+        "amount": 7569.72,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 170,
+        "date": "2022-12-21",
+        "category": "Industrial",
+        "expense_name": "Scudder Global High Income Fund, Inc.",
+        "amount": 471.88,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 171,
+        "date": "2022-08-19",
+        "category": "Baby",
+        "expense_name": "Western Asset Investment Grade Defined Opportunity Trust Inc.",
+        "amount": 7991.35,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 172,
+        "date": "2022-08-30",
+        "category": "Movies",
+        "expense_name": "Bravo Brio Restaurant Group, Inc.",
+        "amount": 3641.04,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 173,
+        "date": "2022-02-03",
+        "category": "Outdoors",
+        "expense_name": "PowerShares Russell 1000 Low Beta Equal Weight Portfolio",
+        "amount": 9299.6,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 174,
+        "date": "2022-08-18",
+        "category": "Sports",
+        "expense_name": "WageWorks, Inc.",
+        "amount": 4553.7,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 175,
+        "date": "2022-10-31",
+        "category": "Home",
+        "expense_name": "Olin Corporation",
+        "amount": 8170.1,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 176,
+        "date": "2022-06-22",
+        "category": "Jewelry",
+        "expense_name": "CyrusOne Inc",
+        "amount": 210.32,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 177,
+        "date": "2022-12-27",
+        "category": "Shoes",
+        "expense_name": "Liquidity Services, Inc.",
+        "amount": 8587.96,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 178,
+        "date": "2022-12-05",
+        "category": "Games",
+        "expense_name": "Tractor Supply Company",
+        "amount": 2419.1,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 179,
+        "date": "2022-06-07",
+        "category": "Computers",
+        "expense_name": "National General Holdings Corp",
+        "amount": 2622.37,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 180,
+        "date": "2022-04-14",
+        "category": "Toys",
+        "expense_name": "ServiceSource International, Inc.",
+        "amount": 9258.72,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 181,
+        "date": "2022-10-22",
+        "category": "Computers",
+        "expense_name": "Wells Fargo & Company",
+        "amount": 8441.81,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 182,
+        "date": "2022-04-13",
+        "category": "Tools",
+        "expense_name": "Legg Mason BW Global Income Opportunities Fund Inc.",
+        "amount": 512.52,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 183,
+        "date": "2022-06-15",
+        "category": "Tools",
+        "expense_name": "Tallgrass Energy GP, LP",
+        "amount": 2837.61,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 184,
+        "date": "2022-09-13",
+        "category": "Jewelry",
+        "expense_name": "TrueBlue, Inc.",
+        "amount": 4499.92,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 185,
+        "date": "2022-06-17",
+        "category": "Industrial",
+        "expense_name": "Scudder Strategic Income Trust",
+        "amount": 643.12,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 186,
+        "date": "2022-09-15",
+        "category": "Industrial",
+        "expense_name": "Simon Property Group, Inc.",
+        "amount": 3933.92,
+        "type": "bank",
+        "desciption": "nec dui luctus"
+    },
+    {
+        "id": 187,
+        "date": "2022-05-23",
+        "category": "Electronics",
+        "expense_name": "Nuveen Multi-Market Income Fund",
+        "amount": 129.36,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 188,
+        "date": "2022-07-17",
+        "category": "Kids",
+        "expense_name": "Whirlpool Corporation",
+        "amount": 4899.26,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 189,
+        "date": "2022-01-04",
+        "category": "Outdoors",
+        "expense_name": "Duluth Holdings Inc.",
+        "amount": 8343.33,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 190,
+        "date": "2022-04-03",
+        "category": "Toys",
+        "expense_name": "BlackRock Credit Allocation Income Trust",
+        "amount": 8434.42,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 191,
+        "date": "2022-11-16",
+        "category": "Electronics",
+        "expense_name": "Newtek Business Services Corp.",
+        "amount": 9844.36,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 192,
+        "date": "2022-05-23",
+        "category": "Electronics",
+        "expense_name": "Canada Goose Holdings Inc.",
+        "amount": 7327.16,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 193,
+        "date": "2022-03-23",
+        "category": "Automotive",
+        "expense_name": "AllianzGI Convertible & Income Fund",
+        "amount": 8839.84,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 194,
+        "date": "2022-10-15",
+        "category": "Shoes",
+        "expense_name": "LifePoint Health, Inc.",
+        "amount": 5868.81,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 195,
+        "date": "2022-07-23",
+        "category": "Health",
+        "expense_name": "Senomyx, Inc.",
+        "amount": 7045.79,
+        "type": "cash",
+        "desciption": "erat id mauris"
+    },
+    {
+        "id": 196,
+        "date": "2022-06-08",
+        "category": "Toys",
+        "expense_name": "Steel Partners Holdings LP",
+        "amount": 2698.53,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 197,
+        "date": "2022-02-02",
+        "category": "Music",
+        "expense_name": "Stoneridge, Inc.",
+        "amount": 5821.31,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 198,
+        "date": "2022-07-09",
+        "category": "Home",
+        "expense_name": "Calamos Convertible and High Income Fund",
+        "amount": 2682.03,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 199,
+        "date": "2022-08-06",
+        "category": "Music",
+        "expense_name": "Adamas Pharmaceuticals, Inc.",
+        "amount": 6525.74,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 200,
+        "date": "2022-11-20",
+        "category": "Games",
+        "expense_name": "ICF International, Inc.",
+        "amount": 4395.52,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 201,
+        "date": "2022-04-05",
+        "category": "Books",
+        "expense_name": "eHealth, Inc.",
+        "amount": 8217.07,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 202,
+        "date": "2022-08-28",
+        "category": "Toys",
+        "expense_name": "Chimera Investment Corporation",
+        "amount": 4486.58,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 203,
+        "date": "2022-10-02",
+        "category": "Industrial",
+        "expense_name": "Vident Core U.S. Bond Strategy Fund",
+        "amount": 9394.81,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 204,
+        "date": "2022-01-11",
+        "category": "Clothing",
+        "expense_name": "Berkshire Hills Bancorp, Inc.",
+        "amount": 6095.26,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 205,
+        "date": "2022-01-14",
+        "category": "Sports",
+        "expense_name": "Rexnord Corporation",
+        "amount": 5769.14,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 206,
+        "date": "2022-11-26",
+        "category": "Baby",
+        "expense_name": "HRG Group, Inc.",
+        "amount": 7935.75,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 207,
+        "date": "2022-05-06",
+        "category": "Movies",
+        "expense_name": "Chanticleer Holdings, Inc.",
+        "amount": 2643.92,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 208,
+        "date": "2022-09-07",
+        "category": "Sports",
+        "expense_name": "D.R. Horton, Inc.",
+        "amount": 5269.49,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 209,
+        "date": "2022-08-20",
+        "category": "Toys",
+        "expense_name": "B. Riley Financial, Inc.",
+        "amount": 714.32,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 210,
+        "date": "2022-09-05",
+        "category": "Garden",
+        "expense_name": "Rio Tinto Plc",
+        "amount": 2247.46,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 211,
+        "date": "2022-06-26",
+        "category": "Books",
+        "expense_name": "Allot Communications Ltd.",
+        "amount": 6126.92,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 212,
+        "date": "2022-01-19",
+        "category": "Kids",
+        "expense_name": "Forterra, Inc.",
+        "amount": 351.99,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 213,
+        "date": "2022-10-06",
+        "category": "Kids",
+        "expense_name": "Therapix Biosciences Ltd.",
+        "amount": 5914.71,
+        "type": "cash",
+        "desciption": "ipsum dolor sit"
+    },
+    {
+        "id": 214,
+        "date": "2022-04-16",
+        "category": "Industrial",
+        "expense_name": "MSG Networks Inc.",
+        "amount": 5965.45,
+        "type": "cash",
+        "desciption": "eu massa donec"
+    },
+    {
+        "id": 215,
+        "date": "2022-08-13",
+        "category": "Electronics",
+        "expense_name": "Weibo Corporation",
+        "amount": 4913.2,
+        "type": "cash",
+        "desciption": "risus auctor sed"
+    },
+    {
+        "id": 216,
+        "date": "2022-11-13",
+        "category": "Home",
+        "expense_name": "Wins Finance Holdings Inc.",
+        "amount": 2526.94,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 217,
+        "date": "2022-12-01",
+        "category": "Health",
+        "expense_name": "Vident Core US Equity ETF",
+        "amount": 5503.12,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 218,
+        "date": "2022-12-24",
+        "category": "Automotive",
+        "expense_name": "NexPoint Residential Trust, Inc.",
+        "amount": 88.06,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 219,
+        "date": "2022-08-09",
+        "category": "Computers",
+        "expense_name": "Wendy's Company (The)",
+        "amount": 6043.1,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 220,
+        "date": "2022-10-29",
+        "category": "Clothing",
+        "expense_name": "IBERIABANK Corporation",
+        "amount": 8473.96,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 221,
+        "date": "2022-03-07",
+        "category": "Automotive",
+        "expense_name": "Cabela's Inc",
+        "amount": 2940.2,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 222,
+        "date": "2022-07-24",
+        "category": "Tools",
+        "expense_name": "Invitae Corporation",
+        "amount": 671.49,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 223,
+        "date": "2022-10-11",
+        "category": "Clothing",
+        "expense_name": "A V Homes, Inc.",
+        "amount": 8785.31,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 224,
+        "date": "2022-09-17",
+        "category": "Toys",
+        "expense_name": "Square, Inc.",
+        "amount": 3226.02,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 225,
+        "date": "2022-05-23",
+        "category": "Movies",
+        "expense_name": "Tech Data Corporation",
+        "amount": 5397.9,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 226,
+        "date": "2022-03-26",
+        "category": "Jewelry",
+        "expense_name": "Coca-Cola Bottling Co. Consolidated",
+        "amount": 4372.13,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 227,
+        "date": "2022-09-10",
+        "category": "Kids",
+        "expense_name": "Greif Bros. Corporation",
+        "amount": 7651.35,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 228,
+        "date": "2022-03-21",
+        "category": "Computers",
+        "expense_name": "Pebblebrook Hotel Trust",
+        "amount": 6875.45,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 229,
+        "date": "2022-07-03",
+        "category": "Industrial",
+        "expense_name": "Philip Morris International Inc",
+        "amount": 3649.23,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 230,
+        "date": "2022-03-04",
+        "category": "Kids",
+        "expense_name": "Novartis AG",
+        "amount": 6707.08,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 231,
+        "date": "2022-07-17",
+        "category": "Beauty",
+        "expense_name": "Invesco California Value Municipal Income Trust",
+        "amount": 5389.08,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 232,
+        "date": "2022-04-01",
+        "category": "Health",
+        "expense_name": "First Horizon National Corporation",
+        "amount": 9322.99,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 233,
+        "date": "2022-12-23",
+        "category": "Computers",
+        "expense_name": "Yandex N.V.",
+        "amount": 8108.54,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 234,
+        "date": "2022-07-08",
+        "category": "Music",
+        "expense_name": "Shaw Communications Inc.",
+        "amount": 8855.44,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 235,
+        "date": "2022-09-03",
+        "category": "Tools",
+        "expense_name": "Zions Bancorporation",
+        "amount": 2613.12,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 236,
+        "date": "2022-12-20",
+        "category": "Home",
+        "expense_name": "Prologis, Inc.",
+        "amount": 4450.65,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 237,
+        "date": "2022-04-17",
+        "category": "Movies",
+        "expense_name": "LaSalle Hotel Properties",
+        "amount": 2319.68,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 238,
+        "date": "2022-04-08",
+        "category": "Jewelry",
+        "expense_name": "WildHorse Resource Development Corporation",
+        "amount": 7482.82,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 239,
+        "date": "2022-05-18",
+        "category": "Industrial",
+        "expense_name": "BLDRS Developed Markets 100 ADR Index Fund",
+        "amount": 4793.4,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 240,
+        "date": "2022-03-02",
+        "category": "Tools",
+        "expense_name": "Turkcell Iletisim Hizmetleri AS",
+        "amount": 2715.14,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 241,
+        "date": "2022-11-02",
+        "category": "Kids",
+        "expense_name": "Intuitive Surgical, Inc.",
+        "amount": 5036.59,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 242,
+        "date": "2022-04-12",
+        "category": "Garden",
+        "expense_name": "Boston Private Financial Holdings, Inc.",
+        "amount": 5796.16,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 243,
+        "date": "2022-10-27",
+        "category": "Books",
+        "expense_name": "Terex Corporation",
+        "amount": 1840.36,
+        "type": "cash",
+        "desciption": "eget tincidunt eget"
+    },
+    {
+        "id": 244,
+        "date": "2022-10-02",
+        "category": "Books",
+        "expense_name": "The AES Corporation",
+        "amount": 4581.96,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 245,
+        "date": "2022-10-31",
+        "category": "Garden",
+        "expense_name": "PennantPark Investment Corporation",
+        "amount": 9260.4,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 246,
+        "date": "2022-06-21",
+        "category": "Computers",
+        "expense_name": "AVEO Pharmaceuticals, Inc.",
+        "amount": 6882.16,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 247,
+        "date": "2022-12-27",
+        "category": "Clothing",
+        "expense_name": "Evertec, Inc.",
+        "amount": 4493.85,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 248,
+        "date": "2022-01-23",
+        "category": "Health",
+        "expense_name": "Convergys Corporation",
+        "amount": 6219.82,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 249,
+        "date": "2022-03-30",
+        "category": "Computers",
+        "expense_name": "Builders FirstSource, Inc.",
+        "amount": 1252.82,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 250,
+        "date": "2022-05-31",
+        "category": "Garden",
+        "expense_name": "Tetra Tech, Inc.",
+        "amount": 8197.22,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 251,
+        "date": "2022-10-15",
+        "category": "Kids",
+        "expense_name": "Cabot Microelectronics Corporation",
+        "amount": 3104.09,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 252,
+        "date": "2022-09-17",
+        "category": "Clothing",
+        "expense_name": "FS Bancorp, Inc.",
+        "amount": 2454.66,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 253,
+        "date": "2022-02-09",
+        "category": "Music",
+        "expense_name": "Estee Lauder Companies, Inc. (The)",
+        "amount": 4322.11,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 254,
+        "date": "2022-03-25",
+        "category": "Garden",
+        "expense_name": "Duke Energy Corporation",
+        "amount": 1948.73,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 255,
+        "date": "2022-08-26",
+        "category": "Sports",
+        "expense_name": "Chuy's Holdings, Inc.",
+        "amount": 6009.76,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 256,
+        "date": "2022-07-29",
+        "category": "Home",
+        "expense_name": "SGOCO Group, Ltd",
+        "amount": 6463.6,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 257,
+        "date": "2022-06-16",
+        "category": "Jewelry",
+        "expense_name": "Manitowoc Company, Inc. (The)",
+        "amount": 3357.54,
+        "type": "cash",
+        "desciption": "est donec odio"
+    },
+    {
+        "id": 258,
+        "date": "2022-01-20",
+        "category": "Electronics",
+        "expense_name": "Clean Energy Fuels Corp.",
+        "amount": 7541.69,
+        "type": "cash",
+        "desciption": "aliquet pulvinar sed"
+    },
+    {
+        "id": 259,
+        "date": "2022-10-04",
+        "category": "Jewelry",
+        "expense_name": "RAIT Financial Trust",
+        "amount": 2172.57,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 260,
+        "date": "2022-01-02",
+        "category": "Computers",
+        "expense_name": "American Homes 4 Rent",
+        "amount": 7728.66,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 261,
+        "date": "2022-07-30",
+        "category": "Industrial",
+        "expense_name": "iPath US Treasury Flattener ETN",
+        "amount": 6021.56,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 262,
+        "date": "2022-12-26",
+        "category": "Toys",
+        "expense_name": "1st Constitution Bancorp (NJ)",
+        "amount": 9203.48,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 263,
+        "date": "2022-09-30",
+        "category": "Music",
+        "expense_name": "Quinpario Acquisition Corp. 2",
+        "amount": 8371.79,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 264,
+        "date": "2022-03-29",
+        "category": "Health",
+        "expense_name": "TAT Technologies Ltd.",
+        "amount": 6629.44,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 265,
+        "date": "2022-01-29",
+        "category": "Health",
+        "expense_name": "Macquarie Global Infrastructure Total Return Fund Inc.",
+        "amount": 559.07,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 266,
+        "date": "2022-08-30",
+        "category": "Jewelry",
+        "expense_name": "Automatic Data Processing, Inc.",
+        "amount": 7938.22,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 267,
+        "date": "2022-03-24",
+        "category": "Games",
+        "expense_name": "WisdomTree Emerging Markets Quality Dividend Growth Fund",
+        "amount": 7873.25,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 268,
+        "date": "2022-03-16",
+        "category": "Movies",
+        "expense_name": "Terex Corporation",
+        "amount": 7100.42,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 269,
+        "date": "2022-10-19",
+        "category": "Kids",
+        "expense_name": "Cemtrex Inc.",
+        "amount": 1299.73,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 270,
+        "date": "2022-07-18",
+        "category": "Shoes",
+        "expense_name": "IAC/InterActiveCorp",
+        "amount": 5448.67,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 271,
+        "date": "2022-06-10",
+        "category": "Music",
+        "expense_name": "CommScope Holding Company, Inc.",
+        "amount": 4979.37,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 272,
+        "date": "2022-04-03",
+        "category": "Grocery",
+        "expense_name": "Virco Manufacturing Corporation",
+        "amount": 7624.08,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 273,
+        "date": "2022-04-20",
+        "category": "Grocery",
+        "expense_name": "Western Asset Investment Grade Defined Opportunity Trust Inc.",
+        "amount": 3201.85,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 274,
+        "date": "2022-08-05",
+        "category": "Movies",
+        "expense_name": "Sotherly Hotels Inc.",
+        "amount": 7851.13,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 275,
+        "date": "2022-02-18",
+        "category": "Industrial",
+        "expense_name": "Celldex Therapeutics, Inc.",
+        "amount": 9501.68,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 276,
+        "date": "2022-04-06",
+        "category": "Jewelry",
+        "expense_name": "Fiduciary/Claymore MLP Opportunity Fund",
+        "amount": 8583.73,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 277,
+        "date": "2022-06-08",
+        "category": "Shoes",
+        "expense_name": "Intellia Therapeutics, Inc.",
+        "amount": 8605.2,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 278,
+        "date": "2022-04-10",
+        "category": "Home",
+        "expense_name": "Quantenna Communications, Inc.",
+        "amount": 1532.15,
+        "type": "cash",
+        "desciption": "lectus in est"
+    },
+    {
+        "id": 279,
+        "date": "2022-06-20",
+        "category": "Garden",
+        "expense_name": "Jounce Therapeutics, Inc.",
+        "amount": 5167.24,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 280,
+        "date": "2022-10-06",
+        "category": "Toys",
+        "expense_name": "Rexnord Corporation",
+        "amount": 2894.98,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 281,
+        "date": "2022-01-11",
+        "category": "Automotive",
+        "expense_name": "Citizens First Corporation",
+        "amount": 8029.49,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 282,
+        "date": "2022-07-13",
+        "category": "Grocery",
+        "expense_name": "Acacia Research Corporation",
+        "amount": 5223.68,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 283,
+        "date": "2022-01-12",
+        "category": "Toys",
+        "expense_name": "Ocular Therapeutix, Inc.",
+        "amount": 4237.63,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 284,
+        "date": "2022-02-05",
+        "category": "Garden",
+        "expense_name": "Diana Shipping inc.",
+        "amount": 8236.74,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 285,
+        "date": "2022-03-09",
+        "category": "Tools",
+        "expense_name": "Nexeo Solutions, Inc.",
+        "amount": 6241.43,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 286,
+        "date": "2022-10-08",
+        "category": "Health",
+        "expense_name": "Reinsurance Group of America, Incorporated",
+        "amount": 6721.74,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 287,
+        "date": "2022-08-30",
+        "category": "Shoes",
+        "expense_name": "Dick's Sporting Goods Inc",
+        "amount": 6638.41,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 288,
+        "date": "2022-04-27",
+        "category": "Grocery",
+        "expense_name": "Spectra Energy Partners, LP",
+        "amount": 9275.52,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 289,
+        "date": "2022-02-12",
+        "category": "Grocery",
+        "expense_name": "Ekso Bionics Holdings, Inc.",
+        "amount": 4847.17,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 290,
+        "date": "2022-09-12",
+        "category": "Home",
+        "expense_name": "Fanhua Inc.",
+        "amount": 3427.1,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 291,
+        "date": "2022-11-10",
+        "category": "Garden",
+        "expense_name": "American Express Company",
+        "amount": 8443.38,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 292,
+        "date": "2022-09-12",
+        "category": "Computers",
+        "expense_name": "Legg Mason, Inc.",
+        "amount": 9397.53,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 293,
+        "date": "2022-01-06",
+        "category": "Computers",
+        "expense_name": "Tailored Brands, Inc.",
+        "amount": 9590.04,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 294,
+        "date": "2022-05-22",
+        "category": "Movies",
+        "expense_name": "Career Education Corporation",
+        "amount": 7791.57,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 295,
+        "date": "2022-11-13",
+        "category": "Movies",
+        "expense_name": "PowerShares LadderRite 0-5 Year Corporate Bond Portfolio",
+        "amount": 467.63,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 296,
+        "date": "2022-10-09",
+        "category": "Electronics",
+        "expense_name": "Gartner, Inc.",
+        "amount": 3170.75,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 297,
+        "date": "2022-08-13",
+        "category": "Jewelry",
+        "expense_name": "First Guaranty Bancshares, Inc.",
+        "amount": 9007.59,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 298,
+        "date": "2022-04-06",
+        "category": "Outdoors",
+        "expense_name": "FairPoint Communications, Inc.",
+        "amount": 6678.43,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 299,
+        "date": "2022-10-09",
+        "category": "Garden",
+        "expense_name": "Chart Industries, Inc.",
+        "amount": 6953.76,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 300,
+        "date": "2022-07-28",
+        "category": "Sports",
+        "expense_name": "Financial Institutions, Inc.",
+        "amount": 3518.75,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 301,
+        "date": "2022-03-26",
+        "category": "Computers",
+        "expense_name": "Carver Bancorp, Inc.",
+        "amount": 4357.1,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 302,
+        "date": "2022-01-14",
+        "category": "Toys",
+        "expense_name": "Kadmon Holdings, Inc.",
+        "amount": 5602.33,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 303,
+        "date": "2022-06-04",
+        "category": "Clothing",
+        "expense_name": "CYREN Ltd.",
+        "amount": 3383.51,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 304,
+        "date": "2022-01-22",
+        "category": "Automotive",
+        "expense_name": "Tredegar Corporation",
+        "amount": 2588.03,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 305,
+        "date": "2022-06-14",
+        "category": "Automotive",
+        "expense_name": "Clean Harbors, Inc.",
+        "amount": 6827.91,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 306,
+        "date": "2022-01-27",
+        "category": "Grocery",
+        "expense_name": "Wabco Holdings Inc.",
+        "amount": 2163.69,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 307,
+        "date": "2022-06-11",
+        "category": "Kids",
+        "expense_name": "Glatfelter",
+        "amount": 1892.76,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 308,
+        "date": "2022-06-26",
+        "category": "Kids",
+        "expense_name": "Yext, Inc.",
+        "amount": 7692.4,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 309,
+        "date": "2022-07-08",
+        "category": "Home",
+        "expense_name": "Fluor Corporation",
+        "amount": 4883.05,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 310,
+        "date": "2022-03-31",
+        "category": "Health",
+        "expense_name": "Black Knight Financial Services, Inc.",
+        "amount": 3998.78,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 311,
+        "date": "2022-04-22",
+        "category": "Kids",
+        "expense_name": "NICE Ltd",
+        "amount": 6112.25,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 312,
+        "date": "2022-08-27",
+        "category": "Beauty",
+        "expense_name": "iShares Morningstar Mid-Cap ETF",
+        "amount": 1527.04,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 313,
+        "date": "2022-01-06",
+        "category": "Baby",
+        "expense_name": "Union Bankshares Corporation",
+        "amount": 8143.88,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 314,
+        "date": "2022-03-02",
+        "category": "Music",
+        "expense_name": "CME Group Inc.",
+        "amount": 9077.29,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 315,
+        "date": "2022-11-15",
+        "category": "Grocery",
+        "expense_name": "Grupo Financiero Galicia S.A.",
+        "amount": 6250.24,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 316,
+        "date": "2022-08-27",
+        "category": "Kids",
+        "expense_name": "M III Acquisition Corp.",
+        "amount": 8811.56,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 317,
+        "date": "2022-08-06",
+        "category": "Music",
+        "expense_name": "bluebird bio, Inc.",
+        "amount": 4721.24,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 318,
+        "date": "2022-01-06",
+        "category": "Beauty",
+        "expense_name": "Bank of America Corporation",
+        "amount": 3657.55,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 319,
+        "date": "2022-09-01",
+        "category": "Sports",
+        "expense_name": "Medley Capital Corporation",
+        "amount": 5799.28,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 320,
+        "date": "2022-10-15",
+        "category": "Music",
+        "expense_name": "Monster Beverage Corporation",
+        "amount": 1744.88,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 321,
+        "date": "2022-12-11",
+        "category": "Home",
+        "expense_name": "CTI Industries Corporation",
+        "amount": 2727.82,
+        "type": "cash",
+        "desciption": "magnis dis parturient"
+    },
+    {
+        "id": 322,
+        "date": "2022-12-29",
+        "category": "Automotive",
+        "expense_name": "Nuveen Municipal 2021 Target Term Fund",
+        "amount": 9314.56,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 323,
+        "date": "2022-09-01",
+        "category": "Home",
+        "expense_name": "Versum Materials, Inc.",
+        "amount": 6181.74,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 324,
+        "date": "2022-04-17",
+        "category": "Games",
+        "expense_name": "CSG Systems International, Inc.",
+        "amount": 866.4,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 325,
+        "date": "2022-02-05",
+        "category": "Music",
+        "expense_name": "YuMe, Inc.",
+        "amount": 9980.87,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 326,
+        "date": "2022-09-02",
+        "category": "Toys",
+        "expense_name": "Stellus Capital Investment Corporation",
+        "amount": 3988.37,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 327,
+        "date": "2022-09-05",
+        "category": "Outdoors",
+        "expense_name": "QAD Inc.",
+        "amount": 4919.49,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 328,
+        "date": "2022-03-20",
+        "category": "Music",
+        "expense_name": "TD Ameritrade Holding Corporation",
+        "amount": 5414.56,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 329,
+        "date": "2022-08-06",
+        "category": "Outdoors",
+        "expense_name": "IES Holdings, Inc.",
+        "amount": 5461.79,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 330,
+        "date": "2022-06-14",
+        "category": "Electronics",
+        "expense_name": "Mesoblast Limited",
+        "amount": 2446.42,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 331,
+        "date": "2022-04-09",
+        "category": "Kids",
+        "expense_name": "Ecolab Inc.",
+        "amount": 8115.91,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 332,
+        "date": "2022-07-20",
+        "category": "Health",
+        "expense_name": "Entergy Arkansas, Inc.",
+        "amount": 4906.93,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 333,
+        "date": "2022-04-15",
+        "category": "Clothing",
+        "expense_name": "Evolent Health, Inc",
+        "amount": 9621.92,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 334,
+        "date": "2022-06-13",
+        "category": "Music",
+        "expense_name": "Approach Resources Inc.",
+        "amount": 7934.96,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 335,
+        "date": "2022-03-02",
+        "category": "Garden",
+        "expense_name": "Haemonetics Corporation",
+        "amount": 4930.31,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 336,
+        "date": "2022-11-25",
+        "category": "Sports",
+        "expense_name": "General Finance Corporation",
+        "amount": 8831.19,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 337,
+        "date": "2022-12-20",
+        "category": "Movies",
+        "expense_name": "MS Structured Asset Corp Saturns GE Cap Corp Series 2002-14",
+        "amount": 1545.51,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 338,
+        "date": "2022-06-14",
+        "category": "Games",
+        "expense_name": "Marrone Bio Innovations, Inc.",
+        "amount": 5759.14,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 339,
+        "date": "2022-07-11",
+        "category": "Movies",
+        "expense_name": "Kelly Services, Inc.",
+        "amount": 5234.86,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 340,
+        "date": "2022-11-16",
+        "category": "Shoes",
+        "expense_name": "Spherix Incorporated",
+        "amount": 2098.22,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 341,
+        "date": "2022-02-23",
+        "category": "Clothing",
+        "expense_name": "TerraForm Global, Inc.",
+        "amount": 5517.64,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 342,
+        "date": "2022-10-07",
+        "category": "Industrial",
+        "expense_name": "SMTC Corporation",
+        "amount": 8377.71,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 343,
+        "date": "2022-02-04",
+        "category": "Industrial",
+        "expense_name": "Corning Incorporated",
+        "amount": 7077.15,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 344,
+        "date": "2022-11-08",
+        "category": "Electronics",
+        "expense_name": "Boston Properties, Inc.",
+        "amount": 9237.47,
+        "type": "bank",
+        "desciption": "sed magna at"
+    },
+    {
+        "id": 345,
+        "date": "2022-02-26",
+        "category": "Games",
+        "expense_name": "Aqua Metals, Inc.",
+        "amount": 1779.44,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 346,
+        "date": "2022-04-05",
+        "category": "Games",
+        "expense_name": "Protective Life Corporation",
+        "amount": 8728.04,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 347,
+        "date": "2022-02-12",
+        "category": "Outdoors",
+        "expense_name": "Cathay General Bancorp",
+        "amount": 4166.02,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 348,
+        "date": "2022-02-01",
+        "category": "Sports",
+        "expense_name": "Xerium Technologies, Inc.",
+        "amount": 7043.9,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 349,
+        "date": "2022-04-10",
+        "category": "Clothing",
+        "expense_name": "Anthera Pharmaceuticals, Inc.",
+        "amount": 6107.41,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 350,
+        "date": "2022-12-28",
+        "category": "Games",
+        "expense_name": "IDEX Corporation",
+        "amount": 7485.6,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 351,
+        "date": "2022-09-17",
+        "category": "Outdoors",
+        "expense_name": "51job, Inc.",
+        "amount": 5995.32,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 352,
+        "date": "2022-05-30",
+        "category": "Movies",
+        "expense_name": "J. W. Mays, Inc.",
+        "amount": 2007.76,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 353,
+        "date": "2022-03-27",
+        "category": "Industrial",
+        "expense_name": "Trinity Industries, Inc.",
+        "amount": 979.47,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 354,
+        "date": "2022-02-17",
+        "category": "Health",
+        "expense_name": "CRISPR Therapeutics AG",
+        "amount": 852.57,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 355,
+        "date": "2022-01-05",
+        "category": "Movies",
+        "expense_name": "Burcon NutraScience Corp",
+        "amount": 1612.35,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 356,
+        "date": "2022-05-18",
+        "category": "Movies",
+        "expense_name": "Alphabet Inc.",
+        "amount": 2486.04,
+        "type": "bank",
+        "desciption": "rhoncus sed vestibulum"
+    },
+    {
+        "id": 357,
+        "date": "2022-06-18",
+        "category": "Industrial",
+        "expense_name": "Colony Starwood Homes",
+        "amount": 369.31,
+        "type": "bank",
+        "desciption": "penatibus et"
+    },
+    {
+        "id": 358,
+        "date": "2022-03-28",
+        "category": "Home",
+        "expense_name": "Easterly Acquisition Corp.",
+        "amount": 4307.77,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 359,
+        "date": "2022-02-08",
+        "category": "Movies",
+        "expense_name": "Halyard Health, Inc.",
+        "amount": 6662.01,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 360,
+        "date": "2022-06-17",
+        "category": "Outdoors",
+        "expense_name": "American Homes 4 Rent",
+        "amount": 8338.33,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 361,
+        "date": "2022-01-31",
+        "category": "Health",
+        "expense_name": "Amarin Corporation plc",
+        "amount": 3197.8,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 362,
+        "date": "2022-07-11",
+        "category": "Sports",
+        "expense_name": "Alexandria Real Estate Equities, Inc.",
+        "amount": 6702.15,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 363,
+        "date": "2022-09-13",
+        "category": "Toys",
+        "expense_name": "NII Holdings, Inc.",
+        "amount": 8386.3,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 364,
+        "date": "2022-07-02",
+        "category": "Grocery",
+        "expense_name": "Customers Bancorp, Inc",
+        "amount": 814.51,
+        "type": "bank",
+        "desciption": "non interdum"
+    },
+    {
+        "id": 365,
+        "date": "2022-02-09",
+        "category": "Garden",
+        "expense_name": "First Financial Corporation Indiana",
+        "amount": 485.01,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 366,
+        "date": "2022-03-24",
+        "category": "Sports",
+        "expense_name": "Nuveen Massachusetts Municipal Income Fund",
+        "amount": 3620.08,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 367,
+        "date": "2022-07-17",
+        "category": "Music",
+        "expense_name": "Wells Fargo & Company",
+        "amount": 3375.91,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 368,
+        "date": "2022-04-27",
+        "category": "Automotive",
+        "expense_name": "MFS Intermediate Income Trust",
+        "amount": 4297.9,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 369,
+        "date": "2022-01-30",
+        "category": "Jewelry",
+        "expense_name": "Caterpillar, Inc.",
+        "amount": 1649.19,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 370,
+        "date": "2022-06-28",
+        "category": "Industrial",
+        "expense_name": "PerkinElmer, Inc.",
+        "amount": 8312.76,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 371,
+        "date": "2022-11-23",
+        "category": "Clothing",
+        "expense_name": "Gartner, Inc.",
+        "amount": 6032.46,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 372,
+        "date": "2022-09-28",
+        "category": "Toys",
+        "expense_name": "United States Cellular Corporation",
+        "amount": 2132.56,
+        "type": "cash",
+        "desciption": "dui luctus"
+    },
+    {
+        "id": 373,
+        "date": "2022-07-19",
+        "category": "Games",
+        "expense_name": "Nuveen California Quality Municipal Income Fund",
+        "amount": 626.55,
+        "type": "cash",
+        "desciption": "amet consectetuer"
+    },
+    {
+        "id": 374,
+        "date": "2022-05-07",
+        "category": "Books",
+        "expense_name": "The Medicines Company",
+        "amount": 707.06,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 375,
+        "date": "2022-07-28",
+        "category": "Books",
+        "expense_name": "IBERIABANK Corporation",
+        "amount": 6209.06,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 376,
+        "date": "2022-01-01",
+        "category": "Sports",
+        "expense_name": "IZEA Inc.",
+        "amount": 4405.67,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 377,
+        "date": "2022-05-02",
+        "category": "Baby",
+        "expense_name": "NCI Building Systems, Inc.",
+        "amount": 7035.18,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 378,
+        "date": "2022-10-22",
+        "category": "Industrial",
+        "expense_name": "Nortel Inversora SA",
+        "amount": 5701.76,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 379,
+        "date": "2022-07-25",
+        "category": "Shoes",
+        "expense_name": "Monmouth Real Estate Investment Corporation",
+        "amount": 8975.71,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 380,
+        "date": "2022-12-23",
+        "category": "Outdoors",
+        "expense_name": "South Jersey Industries, Inc.",
+        "amount": 2913.0,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 381,
+        "date": "2022-05-17",
+        "category": "Books",
+        "expense_name": "AirMedia Group Inc",
+        "amount": 9826.09,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 382,
+        "date": "2022-01-19",
+        "category": "Outdoors",
+        "expense_name": "Koppers Holdings Inc.",
+        "amount": 2988.03,
+        "type": "bank",
+        "desciption": "lacinia eget"
+    },
+    {
+        "id": 383,
+        "date": "2022-11-08",
+        "category": "Automotive",
+        "expense_name": "Banco Santander, S.A.",
+        "amount": 2272.56,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 384,
+        "date": "2022-08-26",
+        "category": "Jewelry",
+        "expense_name": "Gartner, Inc.",
+        "amount": 2886.63,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 385,
+        "date": "2022-07-07",
+        "category": "Electronics",
+        "expense_name": "Take-Two Interactive Software, Inc.",
+        "amount": 4612.57,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 386,
+        "date": "2022-02-04",
+        "category": "Tools",
+        "expense_name": "Just Energy Group, Inc.",
+        "amount": 5280.76,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 387,
+        "date": "2022-05-30",
+        "category": "Automotive",
+        "expense_name": "Superior Energy Services, Inc.",
+        "amount": 8030.44,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 388,
+        "date": "2022-09-21",
+        "category": "Outdoors",
+        "expense_name": "Principal U.S. Small Cap Index ETF",
+        "amount": 7585.88,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 389,
+        "date": "2022-11-29",
+        "category": "Shoes",
+        "expense_name": "Pattern Energy Group Inc.",
+        "amount": 8537.87,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 390,
+        "date": "2022-03-17",
+        "category": "Books",
+        "expense_name": "Monster Digital, Inc.",
+        "amount": 3414.02,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 391,
+        "date": "2022-10-14",
+        "category": "Music",
+        "expense_name": "Evoke Pharma, Inc.",
+        "amount": 2579.48,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 392,
+        "date": "2022-06-20",
+        "category": "Home",
+        "expense_name": "TEGNA Inc.",
+        "amount": 2421.9,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 393,
+        "date": "2022-11-06",
+        "category": "Baby",
+        "expense_name": "Ultra Clean Holdings, Inc.",
+        "amount": 7334.67,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 394,
+        "date": "2022-10-04",
+        "category": "Movies",
+        "expense_name": "Xerox Corporation",
+        "amount": 3721.76,
+        "type": "bank",
+        "desciption": "proin risus praesent"
+    },
+    {
+        "id": 395,
+        "date": "2022-02-11",
+        "category": "Grocery",
+        "expense_name": "eHi Car Services Limited",
+        "amount": 9380.01,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 396,
+        "date": "2022-04-14",
+        "category": "Home",
+        "expense_name": "China Yuchai International Limited",
+        "amount": 3385.27,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 397,
+        "date": "2022-07-19",
+        "category": "Industrial",
+        "expense_name": "Thermon Group Holdings, Inc.",
+        "amount": 9079.34,
+        "type": "cash",
+        "desciption": "morbi ut odio"
+    },
+    {
+        "id": 398,
+        "date": "2022-11-12",
+        "category": "Home",
+        "expense_name": "JAKKS Pacific, Inc.",
+        "amount": 7322.67,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 399,
+        "date": "2022-12-05",
+        "category": "Home",
+        "expense_name": "HSBC Holdings plc",
+        "amount": 2489.06,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 400,
+        "date": "2022-10-06",
+        "category": "Jewelry",
+        "expense_name": "Charles & Colvard Ltd",
+        "amount": 5904.67,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 401,
+        "date": "2022-07-31",
+        "category": "Garden",
+        "expense_name": "PowerShares S&P SmallCap Materials Portfolio",
+        "amount": 3801.41,
+        "type": "bank",
+        "desciption": "erat curabitur"
+    },
+    {
+        "id": 402,
+        "date": "2022-02-11",
+        "category": "Outdoors",
+        "expense_name": "Affiliated Managers Group, Inc.",
+        "amount": 2389.94,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 403,
+        "date": "2022-12-14",
+        "category": "Clothing",
+        "expense_name": "eGain Corporation",
+        "amount": 9414.75,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 404,
+        "date": "2022-03-04",
+        "category": "Industrial",
+        "expense_name": "Hill International, Inc.",
+        "amount": 3670.44,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 405,
+        "date": "2022-08-14",
+        "category": "Books",
+        "expense_name": "On Assignment, Inc.",
+        "amount": 534.7,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 406,
+        "date": "2022-12-03",
+        "category": "Garden",
+        "expense_name": "NeuroDerm Ltd.",
+        "amount": 5094.35,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 407,
+        "date": "2022-07-23",
+        "category": "Movies",
+        "expense_name": "Unisys Corporation",
+        "amount": 6688.04,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 408,
+        "date": "2022-05-13",
+        "category": "Beauty",
+        "expense_name": "Sandy Spring Bancorp, Inc.",
+        "amount": 7341.33,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 409,
+        "date": "2022-04-01",
+        "category": "Garden",
+        "expense_name": "Baozun Inc.",
+        "amount": 3872.32,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 410,
+        "date": "2022-02-18",
+        "category": "Automotive",
+        "expense_name": "Select Asset Inc.",
+        "amount": 2569.47,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 411,
+        "date": "2022-02-15",
+        "category": "Sports",
+        "expense_name": "DDR Corp.",
+        "amount": 3483.03,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 412,
+        "date": "2022-03-18",
+        "category": "Industrial",
+        "expense_name": "PowerShares KBW Regional Banking Portfolio",
+        "amount": 8616.67,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 413,
+        "date": "2022-05-12",
+        "category": "Sports",
+        "expense_name": "Triangle Capital Corporation",
+        "amount": 7226.74,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 414,
+        "date": "2022-03-20",
+        "category": "Garden",
+        "expense_name": "Arch Capital Group Ltd.",
+        "amount": 8544.45,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 415,
+        "date": "2022-12-08",
+        "category": "Jewelry",
+        "expense_name": "Insignia Systems, Inc.",
+        "amount": 7530.34,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 416,
+        "date": "2022-03-31",
+        "category": "Health",
+        "expense_name": "Atara Biotherapeutics, Inc.",
+        "amount": 9486.7,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 417,
+        "date": "2022-08-22",
+        "category": "Tools",
+        "expense_name": "La Jolla Pharmaceutical Company",
+        "amount": 2401.72,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 418,
+        "date": "2022-04-21",
+        "category": "Health",
+        "expense_name": "NASDAQ TEST STOCK",
+        "amount": 833.87,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 419,
+        "date": "2022-06-25",
+        "category": "Toys",
+        "expense_name": "AG Mortgage Investment Trust, Inc.",
+        "amount": 3427.11,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 420,
+        "date": "2022-08-25",
+        "category": "Grocery",
+        "expense_name": "Allscripts Healthcare Solutions, Inc.",
+        "amount": 6644.99,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 421,
+        "date": "2022-01-25",
+        "category": "Baby",
+        "expense_name": "Scudder Municiple Income Trust",
+        "amount": 4787.46,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 422,
+        "date": "2022-02-06",
+        "category": "Grocery",
+        "expense_name": "THL Credit, Inc.",
+        "amount": 235.46,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 423,
+        "date": "2022-04-30",
+        "category": "Sports",
+        "expense_name": "SandRidge Mississippian Trust II",
+        "amount": 8516.87,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 424,
+        "date": "2022-01-04",
+        "category": "Shoes",
+        "expense_name": "AVX Corporation",
+        "amount": 9954.94,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 425,
+        "date": "2022-10-15",
+        "category": "Industrial",
+        "expense_name": "Wecast Network, Inc.",
+        "amount": 7019.17,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 426,
+        "date": "2022-08-01",
+        "category": "Books",
+        "expense_name": "Uniti Group Inc.",
+        "amount": 761.81,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 427,
+        "date": "2022-05-17",
+        "category": "Jewelry",
+        "expense_name": "IRSA Propiedades Comerciales S.A.",
+        "amount": 6067.98,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 428,
+        "date": "2022-10-27",
+        "category": "Tools",
+        "expense_name": "PPG Industries, Inc.",
+        "amount": 3481.11,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 429,
+        "date": "2022-04-17",
+        "category": "Grocery",
+        "expense_name": "R1 RCM Inc.",
+        "amount": 199.15,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 430,
+        "date": "2022-04-10",
+        "category": "Clothing",
+        "expense_name": "Condor Hospitality Trust, Inc.",
+        "amount": 2585.47,
+        "type": "bank",
+        "desciption": "justo pellentesque"
+    },
+    {
+        "id": 431,
+        "date": "2022-10-09",
+        "category": "Jewelry",
+        "expense_name": "DCP Midstream LP",
+        "amount": 9105.84,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 432,
+        "date": "2022-06-08",
+        "category": "Jewelry",
+        "expense_name": "Innospec Inc.",
+        "amount": 552.53,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 433,
+        "date": "2022-09-17",
+        "category": "Garden",
+        "expense_name": "Cohu, Inc.",
+        "amount": 9458.59,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 434,
+        "date": "2022-12-05",
+        "category": "Jewelry",
+        "expense_name": "Cone Midstream Partners LP",
+        "amount": 1621.88,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 435,
+        "date": "2022-07-15",
+        "category": "Sports",
+        "expense_name": "Flaherty & Crumrine Dynamic Preferred and Income Fund Inc.",
+        "amount": 3135.75,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 436,
+        "date": "2022-09-06",
+        "category": "Shoes",
+        "expense_name": "TiVo Corporation",
+        "amount": 3694.51,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 437,
+        "date": "2022-04-25",
+        "category": "Shoes",
+        "expense_name": "Heico Corporation",
+        "amount": 2754.09,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 438,
+        "date": "2022-07-15",
+        "category": "Sports",
+        "expense_name": "Grupo Aeroportuario Del Pacifico, S.A. de C.V.",
+        "amount": 5008.05,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 439,
+        "date": "2022-10-11",
+        "category": "Health",
+        "expense_name": "Blackrock MuniYield California Insured Fund, Inc.",
+        "amount": 7218.67,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 440,
+        "date": "2022-09-07",
+        "category": "Tools",
+        "expense_name": "Amazon.com, Inc.",
+        "amount": 8172.57,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 441,
+        "date": "2022-07-03",
+        "category": "Outdoors",
+        "expense_name": "Public Storage",
+        "amount": 1498.04,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 442,
+        "date": "2022-09-08",
+        "category": "Toys",
+        "expense_name": "uniQure N.V.",
+        "amount": 1526.36,
+        "type": "cash",
+        "desciption": "aenean sit"
+    },
+    {
+        "id": 443,
+        "date": "2022-05-12",
+        "category": "Jewelry",
+        "expense_name": "Air Transport Services Group, Inc",
+        "amount": 3104.11,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 444,
+        "date": "2022-12-24",
+        "category": "Music",
+        "expense_name": "United Therapeutics Corporation",
+        "amount": 4233.64,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 445,
+        "date": "2022-08-15",
+        "category": "Grocery",
+        "expense_name": "Global Net Lease, Inc.",
+        "amount": 7938.76,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 446,
+        "date": "2022-05-31",
+        "category": "Kids",
+        "expense_name": "The Chefs' Warehouse, Inc.",
+        "amount": 6109.21,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 447,
+        "date": "2022-07-22",
+        "category": "Garden",
+        "expense_name": "NanoString Technologies, Inc.",
+        "amount": 2904.07,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 448,
+        "date": "2022-07-11",
+        "category": "Baby",
+        "expense_name": "POSCO",
+        "amount": 2969.47,
+        "type": "cash",
+        "desciption": "faucibus orci luctus"
+    },
+    {
+        "id": 449,
+        "date": "2022-09-01",
+        "category": "Outdoors",
+        "expense_name": "eHi Car Services Limited",
+        "amount": 9229.6,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 450,
+        "date": "2022-04-28",
+        "category": "Grocery",
+        "expense_name": "Black Knight Financial Services, Inc.",
+        "amount": 5549.9,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 451,
+        "date": "2022-06-01",
+        "category": "Music",
+        "expense_name": "Allstate Corporation (The)",
+        "amount": 8328.37,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 452,
+        "date": "2022-02-09",
+        "category": "Clothing",
+        "expense_name": "Jensyn Acquistion Corp.",
+        "amount": 1230.33,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 453,
+        "date": "2022-10-18",
+        "category": "Grocery",
+        "expense_name": "Universal Health Realty Income Trust",
+        "amount": 2230.67,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 454,
+        "date": "2022-01-31",
+        "category": "Automotive",
+        "expense_name": "CIM Commercial Trust Corporation",
+        "amount": 3401.78,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 455,
+        "date": "2022-06-23",
+        "category": "Grocery",
+        "expense_name": "Capitol Acquisition Corp. III",
+        "amount": 4470.31,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 456,
+        "date": "2022-02-12",
+        "category": "Baby",
+        "expense_name": "Texas Pacific Land Trust",
+        "amount": 2118.78,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 457,
+        "date": "2022-05-09",
+        "category": "Garden",
+        "expense_name": "Century Bancorp, Inc.",
+        "amount": 7619.78,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 458,
+        "date": "2022-05-30",
+        "category": "Home",
+        "expense_name": "Seaspan Corporation",
+        "amount": 1926.05,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 459,
+        "date": "2022-05-09",
+        "category": "Computers",
+        "expense_name": "Energous Corporation",
+        "amount": 4592.78,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 460,
+        "date": "2022-04-25",
+        "category": "Movies",
+        "expense_name": "Madison Covered Call & Equity Strategy Fund",
+        "amount": 5836.79,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 461,
+        "date": "2022-06-30",
+        "category": "Baby",
+        "expense_name": "Rennova Health, Inc.",
+        "amount": 3804.54,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 462,
+        "date": "2022-12-24",
+        "category": "Beauty",
+        "expense_name": "Nuveen AMT-Free Municipal Credit Income Fund",
+        "amount": 7686.16,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 463,
+        "date": "2022-02-25",
+        "category": "Movies",
+        "expense_name": "Wright Medical Group N.V.",
+        "amount": 4021.61,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 464,
+        "date": "2022-12-03",
+        "category": "Kids",
+        "expense_name": "Matlin & Partners Acquisition Corporation",
+        "amount": 55.98,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 465,
+        "date": "2022-04-12",
+        "category": "Toys",
+        "expense_name": "Resonant Inc.",
+        "amount": 5903.96,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 466,
+        "date": "2022-04-20",
+        "category": "Electronics",
+        "expense_name": "Marcus & Millichap, Inc.",
+        "amount": 3068.84,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 467,
+        "date": "2022-01-19",
+        "category": "Electronics",
+        "expense_name": "Capital One Financial Corporation",
+        "amount": 5479.51,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 468,
+        "date": "2022-10-25",
+        "category": "Home",
+        "expense_name": "Solar Capital Ltd.",
+        "amount": 1888.26,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 469,
+        "date": "2022-07-13",
+        "category": "Games",
+        "expense_name": "Alexander & Baldwin Holdings, Inc.",
+        "amount": 378.75,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 470,
+        "date": "2022-12-03",
+        "category": "Beauty",
+        "expense_name": "National Steel Company",
+        "amount": 1264.19,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 471,
+        "date": "2022-02-09",
+        "category": "Toys",
+        "expense_name": "Monarch Casino & Resort, Inc.",
+        "amount": 7902.6,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 472,
+        "date": "2022-07-15",
+        "category": "Grocery",
+        "expense_name": "Davis Select U.S. Equity ETF",
+        "amount": 199.68,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 473,
+        "date": "2022-09-08",
+        "category": "Games",
+        "expense_name": "Mid-America Apartment Communities, Inc.",
+        "amount": 6800.49,
+        "type": "bank",
+        "desciption": "eu interdum"
+    },
+    {
+        "id": 474,
+        "date": "2022-09-08",
+        "category": "Clothing",
+        "expense_name": "Advantage Oil & Gas Ltd",
+        "amount": 9795.17,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 475,
+        "date": "2022-08-08",
+        "category": "Electronics",
+        "expense_name": "UMH Properties, Inc.",
+        "amount": 1561.69,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 476,
+        "date": "2022-06-03",
+        "category": "Baby",
+        "expense_name": "Toro Company (The)",
+        "amount": 6264.33,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 477,
+        "date": "2022-05-09",
+        "category": "Garden",
+        "expense_name": "Hudson Pacific Properties, Inc.",
+        "amount": 9829.84,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 478,
+        "date": "2022-07-15",
+        "category": "Outdoors",
+        "expense_name": "Tempur Sealy International, Inc.",
+        "amount": 5890.2,
+        "type": "cash",
+        "desciption": "dui maecenas tristique"
+    },
+    {
+        "id": 479,
+        "date": "2022-02-26",
+        "category": "Garden",
+        "expense_name": "Plexus Corp.",
+        "amount": 6821.61,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 480,
+        "date": "2022-01-01",
+        "category": "Beauty",
+        "expense_name": "AVEO Pharmaceuticals, Inc.",
+        "amount": 2208.77,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 481,
+        "date": "2022-04-03",
+        "category": "Sports",
+        "expense_name": "John Wiley & Sons, Inc.",
+        "amount": 6250.53,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 482,
+        "date": "2022-03-19",
+        "category": "Sports",
+        "expense_name": "Southern Company (The)",
+        "amount": 6356.69,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 483,
+        "date": "2022-04-20",
+        "category": "Health",
+        "expense_name": "ProPetro Holding Corp.",
+        "amount": 5118.8,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 484,
+        "date": "2022-04-29",
+        "category": "Electronics",
+        "expense_name": "First Trust Indxx Global Natural Resources Income ETF",
+        "amount": 648.16,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 485,
+        "date": "2022-04-09",
+        "category": "Health",
+        "expense_name": "Assembly Biosciences, Inc.",
+        "amount": 4123.8,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 486,
+        "date": "2022-10-18",
+        "category": "Health",
+        "expense_name": "DexCom, Inc.",
+        "amount": 2558.06,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 487,
+        "date": "2022-01-10",
+        "category": "Books",
+        "expense_name": "I.D. Systems, Inc.",
+        "amount": 7068.91,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 488,
+        "date": "2022-11-01",
+        "category": "Beauty",
+        "expense_name": "Cyclacel Pharmaceuticals, Inc.",
+        "amount": 5251.02,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 489,
+        "date": "2022-07-23",
+        "category": "Jewelry",
+        "expense_name": "Franklin Financial Network, Inc.",
+        "amount": 4025.25,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 490,
+        "date": "2022-05-23",
+        "category": "Music",
+        "expense_name": "Spherix Incorporated",
+        "amount": 2771.85,
+        "type": "cash",
+        "desciption": "amet turpis"
+    },
+    {
+        "id": 491,
+        "date": "2022-01-21",
+        "category": "Tools",
+        "expense_name": "VictoryShares US Small Cap Volatility Wtd ETF",
+        "amount": 4974.94,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 492,
+        "date": "2022-07-16",
+        "category": "Music",
+        "expense_name": "Continental Resources, Inc.",
+        "amount": 3696.19,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 493,
+        "date": "2022-07-26",
+        "category": "Baby",
+        "expense_name": "Kindred Healthcare, Inc.",
+        "amount": 1199.41,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 494,
+        "date": "2022-04-06",
+        "category": "Automotive",
+        "expense_name": "Glaukos Corporation",
+        "amount": 5289.09,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 495,
+        "date": "2022-07-27",
+        "category": "Grocery",
+        "expense_name": "RTI Surgical, Inc.",
+        "amount": 1252.04,
+        "type": "cash",
+        "desciption": null
+    },
+    {
+        "id": 496,
+        "date": "2022-07-09",
+        "category": "Grocery",
+        "expense_name": "Banco Bradesco Sa",
+        "amount": 917.05,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 497,
+        "date": "2022-07-28",
+        "category": "Clothing",
+        "expense_name": "Angie's List, Inc.",
+        "amount": 9785.56,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 498,
+        "date": "2022-10-05",
+        "category": "Movies",
+        "expense_name": "Dean Foods Company",
+        "amount": 7845.12,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 499,
+        "date": "2022-01-24",
+        "category": "Shoes",
+        "expense_name": "Blackrock MuniHoldings Fund, Inc.",
+        "amount": 3002.63,
+        "type": "bank",
+        "desciption": null
+    },
+    {
+        "id": 500,
+        "date": "2022-07-08",
+        "category": "Electronics",
+        "expense_name": "Aspen Technology, Inc.",
+        "amount": 3847.46,
+        "type": "cash",
+        "desciption": null
+    }
+]

@@ -5,7 +5,7 @@ fetch('./code_files/data/donors_income2.json')
     })
     .then(function(data) {
         incomeData(data)
-        tableData(data)
+        incomeTable(data)
     })
     .catch(function(err) {
         console.log(err)
@@ -31,9 +31,9 @@ function incomeData(data) {
     document.getElementById("lastFiveIncome").innerHTML = print
 }
 
-function tableData(data) {
+function incomeTable(data) {
     let tableInf = []
-    let printTable = ""
+    let incPrintTable = ""
     let print = ""
     let total = 0
     let difference = 0
@@ -55,14 +55,14 @@ function tableData(data) {
     const lastFive = tableInf.slice(tableInf.length - 5, tableInf.length)
 
     tableInf.forEach(element => {
-        printTable += `<tr><td>${element[6]}</td><td>${element[1]}</td><td>${element[2]}</td><td>${element[3]}</td><td>$${element[4]}</td><td>$${element[5].toFixed(2)}</td><td>$${element[0].toFixed(2)}</td></tr>`
+        incPrintTable += `<tr><td>${element[6]}</td><td>${element[1]}</td><td>${element[2]}</td><td>${element[3]}</td><td>$${element[4]}</td><td>$${element[5].toFixed(2)}</td><td class="fw-bold">$${element[0].toFixed(2)}</td></tr>`
     })
 
     lastFive.forEach(element => {
         print += `<tr><td>${element[6]}</td><td>$${element[4]}</td><td>$${element[5].toFixed(2)}</td><td>$${element[0].toFixed(2)}</td></tr>`
     })
 
-    document.getElementById("printTable").innerHTML = printTable
+    document.getElementById("incPrintTable").innerHTML = incPrintTable
     document.getElementById("printPromise").innerHTML = print
 }
 
@@ -81,19 +81,23 @@ fetch('./code_files/data/expenses.json')
 
 function expensesData(data) {
     let expenses = []
+    let expTablePrint = ""
     let print = ""
     data.forEach(element => {
-        expenses.push([element.date, element.expense_name.substring(0, 10), element.amount, element.type])
+        expenses.push([element.date, element.expense_name, element.amount, element.type, element.category])
         localStorage.setItem('session', JSON.stringify(expenses))
     })
     expenses.sort()
     const lastFive = expenses.slice(expenses.length - 5, expenses.length)
 
     lastFive.forEach(element => {
-        print += `<tr><td>${element[0]}</td><td>${element[1]}</td><td>$${element[2]}</td><td>${element[3]}</td></tr>`
+        print += `<tr><td>${element[0]}</td><td>${element[1].substring(0, 10)}</td><td>$${element[2]}</td><td>${element[3]}</td></tr>`
+    })
+
+    expenses.forEach(element => {
+        expTablePrint += `<tr><td>${element[0]}</td><td>${element[2]}</td><td>${element[1].substring(0, 10)}</td><td>$${element[2]}</td><td>${element[3]}</td></tr>`
     })
 
     document.getElementById("lastFiveExpenses").innerHTML = print
-
-
+    document.getElementById("expTablePrint").innerHTML = expTablePrint
 }
