@@ -4,8 +4,9 @@ fetch('./code_files/data/donors_income2.json')
         return response.json()
     })
     .then(function(data) {
-        incomeData(data)
         incomeTable(data)
+        incomeData(data)
+        incomePromData(tableInf)
     })
     .catch(function(err) {
         console.log(err)
@@ -30,11 +31,10 @@ function incomeData(data) {
 
     document.getElementById("lastFiveIncome").innerHTML = print
 }
+let tableInf = []
 
 function incomeTable(data) {
-    let tableInf = []
     let incPrintTable = ""
-    let printProm = ""
     let total = 0
     let difference = 0
 
@@ -50,19 +50,23 @@ function incomeTable(data) {
         localStorage.setItem('session', JSON.stringify(tableInf))
     }
 
-    tableInf.sort((a, b) => a[0] - b[0])
-
-    const lastFive = tableInf.slice(tableInf.length - 5, tableInf.length)
-
     tableInf.forEach(element => {
         incPrintTable += `<tr><td>${element[6]}</td><td>${element[1]}</td><td>${element[2]}</td><td>${element[3]}</td><td>$${element[4]}</td><td>$${element[5].toFixed(2)}</td><td class="fw-bold">$${element[0].toFixed(2)}</td></tr>`
     })
 
+    document.getElementById("incPrintTable").innerHTML = incPrintTable
+    return tableInf
+}
+
+function incomePromData(tableInf) {
+    let printProm = ""
+    tableInf.sort((a, b) => a[0] - b[0])
+
+    const lastFive = tableInf.slice(tableInf.length - 5, tableInf.length)
+
     lastFive.forEach(element => {
         printProm += `<tr><td>${element[6]}</td><td>$${element[4].toFixed(0)}</td><td>$${element[5].toFixed(0)}</td><td class="fw-bold">$${element[0].toFixed(0)}</td></tr>`
     })
-
-    document.getElementById("incPrintTable").innerHTML = incPrintTable
     document.getElementById("printPromise").innerHTML = printProm
 }
 
@@ -74,15 +78,17 @@ fetch('./code_files/data/expenses.json')
     })
     .then(function(data) {
         expensesData(data)
+        expenseTable(expenses)
     })
     .catch(function(err) {
         console.log(err)
     })
 
+let expenses = []
+
 function expensesData(data) {
-    let expenses = []
-    let expTablePrint = ""
     let print = ""
+
     data.forEach(element => {
         expenses.push([element.date, element.expense_name, element.amount, element.type, element.category])
         localStorage.setItem('session', JSON.stringify(expenses))
@@ -94,10 +100,14 @@ function expensesData(data) {
         print += `<tr><td>${element[0]}</td><td>${element[1].substring(0, 10)}</td><td>$${element[2]}</td><td>${element[3]}</td></tr>`
     })
 
+    document.getElementById("lastFiveExpenses").innerHTML = print
+    return expenses
+}
+
+function expenseTable(expenses) {
+    let expTablePrint = ""
     expenses.forEach(element => {
         expTablePrint += `<tr><td>${element[0]}</td><td>${element[2]}</td><td>${element[1].substring(0, 10)}</td><td>$${element[2]}</td><td>${element[3]}</td></tr>`
     })
-
-    document.getElementById("lastFiveExpenses").innerHTML = print
     document.getElementById("expTablePrint").innerHTML = expTablePrint
 }
