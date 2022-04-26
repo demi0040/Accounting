@@ -7,18 +7,19 @@
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <!-- <link rel="stylesheet" href="./code_files/bootstrap/DataTables-1.11.5/css/dataTables.bootstrap5.min.css" /> -->
-    <link rel="stylesheet" href="./code_files/bootstrap/datatables.min.css">
+    <link rel="stylesheet" href="./node_modules/datatables.net-bs5/css/dataTables.bootstrap5.min.css">
     <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css" />
     <!-- My CSS files -->
     <link rel="stylesheet" href="./code_files/css/main.css" />
 
+    <!-- JS Files for table datas -->
     <script src="./code_files/js/readFile.js">
         function sleep(ms) {
             return new Promise(resolve => setTimeout(resolve, ms));
         }
         sleep(500)
     </script>
+
     <title>PLAY ACCOUNTING</title>
 </head>
 
@@ -404,7 +405,7 @@
                         </div>
                         <div class="card-body">
                             <div class="table-responsive" id="myIncTable"></div>
-                            <div class="table-responsive" id="myExpTable"></div>
+                            <!-- <div class="table-responsive" id="myExpTable"></div> -->
                         </div>
                     </div>
                 </div>
@@ -418,11 +419,10 @@
 
     <!-- JavaScript -->
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="./code_files/bootstrap/jQuery-3.6.0/jquery-3.6.0.min.js "></script>
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./node_modules/datatables.net/js/jquery.dataTables.min.js"></script>
     <script src="./node_modules/chart.js/dist/chart.min.js"></script>
-    <script src="./code_files/bootstrap/DataTables-1.11.5/js/jquery.dataTables.min.js "></script>
-    <script src="./code_files/bootstrap/datatables.min.js "></script>
-    <!-- <script src="./code_files/bootstrap/DataTables-1.11.5/js/dataTables.bootstrap5.min.js "></script> -->
+    <script src="./node_modules/datatables.net-bs5/js/dataTables.bootstrap5.min.js"></script>
     <!-- My JS files -->
     <script src="./code_files/js/graph.js"></script>
 </body>
