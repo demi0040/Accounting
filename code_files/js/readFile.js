@@ -54,6 +54,8 @@ function incomeTable(data) {
         incPrintTable += `<tr><td>${element[6]}</td><td>${element[1]}</td><td>${element[2]}</td><td>${element[3]}</td><td>$${element[4]}</td><td>$${element[5].toFixed(2)}</td><td class="fw-bold">$${element[0].toFixed(2)}</td></tr>`
     })
 
+    document.getElementById("myIncTable").innerHTML = `<table id="example" class="table table-striped data-table" style="width: 100%"><thead><tr><th>Name</th><th>Address</th><th>Area</th><th>Group</th><th>Promise</th><th>Total Donation</th><th>Difference</th></tr></thead><tbody id="incPrintTable"></tbody><tfoot><tr><th>Name</th><th>Address</th><th>Area</th><th>Group</th><th>Promise</th><th>Total Donation</th><th>Difference</th></tr></tfoot></table>`
+
     document.getElementById("incPrintTable").innerHTML = incPrintTable
     return tableInf
 }
