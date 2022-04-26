@@ -14,7 +14,7 @@ fetch('./code_files/data/donors_income2.json')
 
 function incomeData(data) {
     let donorsIncome = []
-    let print = ""
+    let printIncs = ""
     for (let i = 0; i < data.length; i++) {
         data[i].donations.forEach(element => {
             donorsIncome.push([element.date, data[i].donors.first_name + " " + data[i].donors.last_name, element.amount, element.type])
@@ -26,10 +26,10 @@ function incomeData(data) {
     const lastFive = donorsIncome.slice(donorsIncome.length - 5, donorsIncome.length)
 
     lastFive.forEach(element => {
-        print += `<tr><td>${element[0]}</td><td>${element[1]}</td><td>$${element[2]}</td><td>${element[3]}</td></tr>`
+        printIncs += `<tr><td>${element[0]}</td><td>${element[1]}</td><td>$${element[2]}</td><td>${element[3]}</td></tr>`
     })
 
-    document.getElementById("lastFiveIncome").innerHTML = print
+    document.getElementById("lastFiveIncome").innerHTML = printIncs
 }
 let tableInf = []
 
@@ -80,36 +80,44 @@ fetch('./code_files/data/expenses.json')
     })
     .then(function(data) {
         expensesData(data)
-        expenseTable(expenses)
+        expenseTable(data)
     })
     .catch(function(err) {
         console.log(err)
     })
 
-let expenses = []
-
 function expensesData(data) {
-    let print = ""
+    let printExps = ""
+    let expenses = []
 
     data.forEach(element => {
-        expenses.push([element.date, element.expense_name, element.amount, element.type, element.category])
+        expenses.push([element.date, element.expense_name, element.amount, element.type, element.category, element.description])
         localStorage.setItem('session', JSON.stringify(expenses))
     })
     expenses.sort()
     const lastFive = expenses.slice(expenses.length - 5, expenses.length)
 
     lastFive.forEach(element => {
-        print += `<tr><td>${element[0]}</td><td>${element[1].substring(0, 10)}</td><td>$${element[2]}</td><td>${element[3]}</td></tr>`
+        printExps += `<tr><td>${element[0]}</td><td>${element[1].substring(0, 10)}</td><td>$${element[2]}</td><td>${element[3]}</td></tr>`
     })
 
-    document.getElementById("lastFiveExpenses").innerHTML = print
-    return expenses
+    document.getElementById("lastFiveExpenses").innerHTML = printExps
 }
 
-function expenseTable(expenses) {
+function expenseTable(data) {
     let expTablePrint = ""
-    expenses.forEach(element => {
-        expTablePrint += `<tr><td>${element[0]}</td><td>${element[2]}</td><td>${element[1].substring(0, 10)}</td><td>$${element[2]}</td><td>${element[3]}</td></tr>`
+    let expTableCont = []
+
+    data.forEach(element => {
+        expTableCont.push([element.date, element.category, element.expense_name, element.amount, element.type])
+        localStorage.setItem('session', JSON.stringify(expTableCont))
     })
+
+    document.getElementById("myExpTable").innerHTML = `<table id="example" class="table table-striped data-table" style="width: 100%"><thead><tr><th>Date</th><th>Category</th><th>Expense Name</th><th>Amount</th><th>Type</th></tr></thead><tbody id="expTablePrint"></tbody><tfoot><tr><th>Date</th><th>Category</th><th>Expense Name</th><th>Amount</th><th>Type</th></tr></tfoot></table>`
+
+    expTableCont.forEach(element => {
+        expTablePrint += `<tr><td>${element[0]}</td><td>${element[1]}</td><td>${element[2]}</td><td>$${element[3]}</td><td>${element[4]}</td></tr>`
+    })
+
     document.getElementById("expTablePrint").innerHTML = expTablePrint
 }
