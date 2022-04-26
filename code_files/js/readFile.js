@@ -109,14 +109,14 @@ function expenseTable(data) {
     let expTableCont = []
 
     data.forEach(element => {
-        expTableCont.push([element.date, element.category, element.expense_name, element.amount, element.type])
+        expTableCont.push([element.date, element.expense_name, element.category, element.amount, element.type, element.description])
         localStorage.setItem('session', JSON.stringify(expTableCont))
     })
 
-    document.getElementById("myExpTable").innerHTML = `<table id="example" class="table table-striped data-table" style="width: 100%"><thead><tr><th>Date</th><th>Category</th><th>Expense Name</th><th>Amount</th><th>Type</th></tr></thead><tbody id="expTablePrint"></tbody><tfoot><tr><th>Date</th><th>Category</th><th>Expense Name</th><th>Amount</th><th>Type</th></tr></tfoot></table>`
+    document.getElementById("myExpTable").innerHTML = `<table id="example" class="table table-striped data-table" style="width: 100%"><thead><tr><th>Date</th><th>Expense Name</th><th>Category</th><th>Amount</th><th>Type</th><th>Description</th></tr></thead><tbody id="expTablePrint"></tbody><tfoot><tr><th>Date</th><th>Expense Name</th><th>Category</th><th>Amount</th><th>Type</th><th>Description</th></tr></tfoot></table>`
 
     expTableCont.forEach(element => {
-        expTablePrint += `<tr><td>${element[0]}</td><td>${element[1]}</td><td>${element[2]}</td><td>$${element[3]}</td><td>${element[4]}</td></tr>`
+        expTablePrint += `<tr><td>${element[0]}</td><td>${element[1]}</td><td>${element[2]}</td><td>$${element[3]}</td><td>${element[4]}</td><td>${element[5]}</td></tr>`
     })
 
     document.getElementById("expTablePrint").innerHTML = expTablePrint

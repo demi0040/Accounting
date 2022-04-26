@@ -400,12 +400,55 @@
                     <div class="card">
                         <div class="card-header">
                             <span class="col-md-6"><i class="bi bi-table me-2"></i>Data Table</span>
-                            <button class="btn btn-primary float-end" id="incomeTable">Income</button>
-                            <button class="btn btn-primary float-end me-1" id="expensesTable">Expenses</button>
                         </div>
                         <div class="card-body">
-                            <div class="table-responsive" id="myIncTable"></div>
-                            <!-- <div class="table-responsive" id="myExpTable"></div> -->
+                            <!-- with collapse -->
+                            <!-- <p>
+                                <button class="btn btn-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#incomeCollapse" aria-expanded="false" aria-controls="collapseExample">
+                              INCOME TABLE
+                            </button>
+                                <button class="btn btn-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#expenseCollapse" aria-expanded="false" aria-controls="collapseExample">
+                              EXPENSE TABLE
+                            </button>
+                            </p>
+                            <div class="collapse" id="incomeCollapse">
+                                <div class="card card-body">
+                                    <div class="table-responsive" id="myIncTable"></div>
+                                </div>
+                            </div>
+                            <div class="collapse" id="expenseCollapse">
+                                <div class="card card-body">
+                                    <div class="table-responsive" id="myExpTable"></div>
+                                </div>
+                            </div> -->
+
+                            <!-- with accordion -->
+                            <div class="accordion accordion-flush" id="accordionFlushExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingOne">
+                                        <button class="accordion-button btn-outline-secondary collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                  INCOME TABLE
+                                </button>
+                                    </h2>
+                                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">
+                                            <div class="table-responsive" id="myIncTable"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingTwo">
+                                        <button class="accordion-button btn-outline-secondary collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                  EXPENSES TABLE
+                                </button>
+                                    </h2>
+                                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">
+                                            <div class="table-responsive" id="myExpTable"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
